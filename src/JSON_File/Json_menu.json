@@ -1,0 +1,152 @@
+[
+    {
+        "label": "Home",
+        "link": "/"
+    },
+    {
+        "label": "Course",
+        "link": "/course",
+        "isDropdown": true,
+        "DropdownMenu": [
+            {
+                "label": "Accounting & Taxation",
+                "link": "/accandtax"
+            },
+            {
+                "label": "Share Market",
+                "link": "/sharemarket"
+            },
+            {
+                "label": "Computer Basic",
+                "link": "/computerbasic"
+            },
+            {
+                "label": "PGDCA & DCA",
+                "link": "/pgdca&dca"
+            },
+            {
+                "label": "Graphic Design",
+                "link": "/graphicdesign"
+            },
+            {
+                "label": "Spoken English",
+                "link": "/spokenenglish"
+            },
+            {
+                "label": "Vedio Editing",
+                "link": "/vedioediting"
+            },
+            {
+                "label": "Website Design",
+                "link": "websitedesign"
+            },
+            {
+                "label": "Accounting & Tax Solutions",
+                "link": "accandtaxsolution"
+            },
+            {
+                "label": "Digital Marketing",
+                "link": "digitalmarketing"
+            }
+        ]
+    },
+    {
+        "label": "Student Details",
+        "link": "/stu_details",
+        "isDropdown": true,
+        "DropdownMenu": [
+            {
+                "label": "Student d-1",
+                "link": "/stu_d1"
+            },
+            {
+                "label": "Student d-2",
+                "link": "/stu_d2"
+            },
+            {
+                "label": "Student d-3",
+                "link": "/stu_d3"
+            },
+            {
+                "label": "Student d-4",
+                "link": "/stu_d4"
+            }
+        ]
+    },
+    {
+        "label": "Job Consultancy",
+        "link": "/jobconsultancy",
+        "isDropdown": true,
+        "DropdownMenu": [
+            {
+                "label": "Job C-1",
+                "link": "/job-c1"
+            },
+            {
+                "label": "Job C-1",
+                "link": "/job-c1"
+            },
+            {
+                "label": "Job C-1",
+                "link": "/job-c1"
+            }
+        ]
+    },
+    {
+        "label": "About Us",
+        "link": "/about_Us"
+    },
+    {
+        "label": "Contact Us",
+        "link": "/contactus"
+    },
+    {
+        "label": "Download",
+        "link": "/download",
+        "isDropdown": true,
+        "DropdownMenu": [
+            {
+                "label": "Accounting & Taxation | Syllabus",
+                "link": "/accandtax-syllabus"
+            }
+            ,
+            {
+                "label": "Share Market | Syllabus",
+                "link": "/sharemarket-syllabus"
+            }
+            ,
+            {
+                "label": "Computer Basic | Syllabus",
+                "link": "/computerbasic-syllabus"
+            },
+            {
+                "label": "Digital Marketing | Syllabus",
+                "link": "/digitalmarketing-syllabus"
+            },
+            {
+                "label": "Graphic Design | Syllabus",
+                "link": "/graphicdesign-syllabus"
+            }
+            ,
+            {
+                "label": "Pgdca & DCA | Syllabus",
+                "link": "/pgdca&dca-syllabus"
+            },
+            {
+                "label": "Spoken English | Syllabus",
+                "link": "/spokenenglish-syllabus"
+            },{
+                "label": "Video Editing | Syllabus",
+                "link": "/videoediting-syllabus"
+            }
+            ,{
+                "label": "Website Design | Syllabus",
+                "link": "/websitedesign-syllabus"
+            },
+            {
+                "label": "Accounting & Tax Solutions | Syllabus",
+                "link": "/accandtaxsolutions-syllabus"
+            }
+        ]
+    }
+]

@@ -1,0 +1,88 @@
+.Topheader{
+    
+        background-color:#803486;
+        color:white;
+        height:60px;
+       
+        font-weight:bold;
+        font-size:12px;
+}
+.Topheader .contact,.Topheader .timing,.Topheader .address{
+    padding:12px 0px;
+}
+/* .Topheader .social-icons{
+    padding:22px 0px;
+} */
+
+/* .center{
+      padding:0px auto;
+} */
+
+/* .Topheader .social-icons{
+    padding:0px 20px;
+} */
+
+.Topheader .social-icons span{
+     margin:0px;
+} 
+
+
+
+
+
+.proprety_box{
+    background-color:#803486;
+    padding:20px 10px;
+}
+
+.Topheader .social-icons #whatsapp:hover{
+    border:1px solid #49C457;
+    background-color:#49C457;
+
+}.Topheader .social-icons #whatsapp{
+    border:1px solid #49C457;
+    background-color:#49C457;
+
+}
+.Topheader .social-icons .proprety_box span :hover{
+     transform:scale(1.3);
+     transition:all 0.6s;
+}
+.Topheader .social-icons #Instragram:hover{
+    border:1px solid #FC03B4;
+    background-color:#FC03B4;
+
+}.Topheader .social-icons #Instragram{
+    border:1px solid #FC03B4;
+    background-color:#FC03B4;
+
+}
+.Topheader .social-icons #facebook:hover{
+    border:1px solid #2960AD;
+    background-color:#2960AD;
+
+}
+.Topheader .social-icons #facebook{
+    border:1px solid #2960AD;
+    background-color:#2960AD;
+
+}
+.Topheader .social-icons #twitter{
+    border:1px solid #179CF0;
+   background-color:#179CF0;
+
+}
+.Topheader .social-icons #youtube:hover{
+    border:1px solid #F70000;
+   background-color:#F70000;
+
+}.Topheader .social-icons #youtube{
+    border:1px solid #F70000;
+   background-color:#F70000;
+
+}
+
+.Topheader .social-icons #envelope{
+    border:1px solid #E6E6DA;
+    background-color:#E6E6DA;
+}

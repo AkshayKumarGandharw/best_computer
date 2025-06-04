@@ -1,0 +1,23 @@
+import React from 'react';
+import '../../App';
+import Comman from '../Comman/Comman';
+import Course_syllabus from '../Comman/Course_syllabus';
+
+
+function Video_editing_syllabus() {
+    return (
+        <>
+            <Comman props={{ title: "Download", subtitle: "Video Editing | Syllabus" }} />
+            <Course_syllabus
+
+                props={{
+
+                    titlecontent: "Video Editing | Syllabus",
+                    content: "Note that the development build is not optimized.To create a production build, use npm run build.webpack compiled successfully"
+                }}
+            />
+        </>
+    )
+}
+
+export default Video_editing_syllabus

@@ -1,0 +1,22 @@
+#Topnavbar{
+    background-color:white;
+    max-height:300px;
+}
+
+.Link{
+    margin-right:25px;
+    margin-left:25px;
+}
+
+.bg-purple{
+    background-color:#803486;
+}
+
+
+.nav-link{
+    text-decoration:none;
+    margin-right:10px;
+    margin-left:10px;
+    font-weight:bold;
+
+}

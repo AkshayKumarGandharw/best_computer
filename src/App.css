@@ -1,38 +1,114 @@
-.App {
-  text-align: center;
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* ..........TOP-HEADER START.................. */
+/* ..........TOP-HEADER END.................. */
+/* ...........HEADER START..................... */
+/* ...........HEADER END..................... */
+/* ...........FOOTER START................... */
+#footer-section{
+    background-color:#803486;
+    color:white;
+    height:400px;
+    padding:50px 0px;
+    
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#footer-section a{
+    font-size:18px;
+    font-weight:bold;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#footer-section .image-logo{
+    border-radius:50%;
 }
 
-.App-link {
-  color: #61dafb;
+.logo {
+    margin-bottom:80px;
+}
+/* ...........FOOTER END................... */
+/* ...........Footer part two start................ */
+.footer{
+    background-color:#803486;
+    color:white;
+    overflow:hidden;
+    padding:20px 0px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer .footer-first{
+    margin-left:20px;
 }
+.footer .footer-second{
+   text-align:right;
+   padding:10px 80px 10px 0px;
+   
+}
+
+.footer .footer-second span{
+    justify-content:center;
+    padding:15px 15px;
+    transition: 0.5s all;
+}
+
+.footer .footer-second span a{
+    color:white;
+}
+
+.footer .footer-second span a:hover{
+    /* background-color:white; */
+}
+.footer .footer-second span:hover{
+    border:1px solid white;
+    background-color:pink;
+    background-color:blue;
+}
+/* ...........Footer part two end................ */
+
+
+/* ...............COMMAN SECTION START................. */
+.width-height-section{
+    width:100%;
+    height:auto;
+    text-align:center;
+    color:white;
+    background:linear-gradient(rgba(127, 17, 224, 0.9),rgba(52, 152, 219, 0.7)),url('../public/images/drmoore2.webp');
+}
+
+.p-100{
+    padding:100px 0px;
+}
+
+.width-height-section a{
+    color:white;
+    text-decoration:none;
+}
+
+.syllabus-section{
+    width:100%;
+    height:auto;
+    color:black;
+    background-color:#e2e2e2;
+    
+}
+
+.p-50{
+    padding:50px 0px;
+}
+
+/* .........navbar in sub menu (dropdown menu)............start */
+NavDropdown{
+    color:green;
+}
+/* .........navbar in sub menu (dropdown menu)............end */
+/* ...............COMMAN SECTION END................. */
+
+/*......RESPONSIVE SECTION START */
+@medea screen and(max-width: 346px){
+
+
+}
+/*......RESPONSIVE SECTION END */

@@ -1,0 +1,443 @@
+ *{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+ }
+ /* ------hover effect -------start  */
+
+ #course .box:hover{
+    background-color:yellow;
+    transition:all 0.5s;
+ }
+ /* ------hover effect -------end */
+
+ /* BUTTON SECTION START */
+ .btn-outline-premiry{
+    padding:10px 15px;
+    color:white;
+    font-size:15px;
+    font-weight:semibold;
+    background-color:blue;
+    border-radius:5px;
+    border:none;
+}
+.btn-outline-accent{
+    padding:10px 15px;
+    color:white;
+    font-size:15px;
+    font-weight:semibold;
+    background-color:purple;
+    border-radius:5px;
+    border:none;
+}
+.btn-outline-danger{
+    padding:10px 15px;
+    color:white;
+    font-size:15px;
+    font-weight:semibold;
+    background-color:red;
+    border-radius:5px;
+    border:none;
+}
+.Modal .Header{
+    background-color:#803486;
+    color:white;
+
+}
+
+ /* BUTTON SECTION END */
+
+ /* ---comman property----start */
+
+ .center{
+    text-align:center;
+}
+.text-green{
+    color:green;
+}
+
+.text-purple{
+    color:#803486;
+}
+
+.margin-left{
+    margin-left:20px;
+}
+.margin-100{
+    margin-bottom:100px;
+}
+
+ /* ---comman property----end */
+
+ /* ALL COMPONENTS SECTION START*/
+/* ...............Photoslider start........................... */
+#Photoslider-section{
+    position:relative;
+    height:auto;
+   
+
+}
+#Photoslider-section .height-box-image{
+    height:400px;
+    background-color:green;
+    border-radius:20px;
+}
+#Photoslider-section .height-box-image img{
+    width:100%;
+    height:100vh;
+
+}
+/* #Photoslider-section .Carousel .Item img{
+
+        height:100px;
+} */
+.Register-form{
+    position:absolute;
+    right:40px;
+    top:100px;
+    padding:20px;
+    background-color:#ffffff;
+    box-shadow:3px 4px 5px blur white;
+    border:15px solid #e2e2e2;
+     z-index:2;
+}
+
+
+
+/* ...............Photoslider end.......................... */
+
+/* ................Notice start............................ */
+  #Notice-section{
+    height:800px;
+    background-color:#e2e2e2;
+    position:relative;
+    overflow:hidden;
+    
+  }
+   #Notice-section .notice-info{
+    border-right:2px solid black;
+   }
+ 
+  #Notice-section .swiper {
+    width:670px;
+    height:500px;
+    position:absolute;
+    
+}
+
+#Notice-section .swiper .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+   
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+#Notice-section .swiper .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 50px;
+  object-fit: cover;
+}
+.latest-post .heading-post  {
+    background-color:#803486;
+    line-height:50px;
+    height:50px;
+    width:670px;
+    padding:15px;
+    text-align:center;
+    color:white;
+    
+}
+#Notice-section .swiper .swiper-slide .color{
+    color:cyan;
+    background-color:gray;
+    height:35px;
+    line-height:35px;
+    margin:7px 20px  7px 20px;
+
+}
+
+#Notice-section .swiper .swiper-slide p{
+    padding:15px;
+    text-align:left;
+    box-shadow:0px 0px 1px gray;
+    background-color:#e2e2e2;
+    margin:0px 20px;
+    
+}
+/* -----Important link and other details--------- start*/
+  #Notice-section .notice-info-other_important{
+    border-right:2px solid black;
+   }
+ 
+  #Notice-section  .notice-info-other_important .swiper {
+    width:300px;
+    height:500px;
+    position:absolute;
+    
+}
+
+#Notice-section .notice-info-other_important .swiper .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+   
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+#Notice-section .notice-info-other_important .swiper .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 50px;
+  object-fit: cover;
+}
+.latest-post-other_important .heading-post-other_important  {
+    background-color:#803486;
+    line-height:50px;
+    height:50px;
+    width:300px;
+    padding:15px;
+    text-align:center;
+    color:white;
+    
+}
+#Notice-section .notice-info-other_important .swiper .swiper-slide .color{
+    color:cyan;
+    background-color:gray;
+    height:35px;
+    line-height:35px;
+    margin:7px 20px  7px 20px;
+
+}
+
+#Notice-section  .notice-info-other_important .swiper .swiper-slide p{
+    padding:15px;
+    text-align:left;
+    box-shadow:0px 0px 1px gray;
+    background-color:#e2e2e2;
+    margin:0px 20px;
+    
+}
+/* -----Important link and other details--------- end*/
+
+/* ................Notice end............................ */
+/* ................Course start.......................... */
+#course{
+    height:auto;
+    padding :100px 0px;   
+}
+#course .box{
+    display:flex;
+    border-radius:20px;
+    padding:10px 0px 10px 15px;
+    background-color:#e2e2e2;
+    margin-bottom:30px;
+    transition:all 0.5s;
+   
+    
+}
+#course .box .img{
+    width:300px;
+    height:300px;
+    background-color:gray;
+    
+
+}
+
+#course .box .img img{
+    width:100%;
+    height:100%;
+    background-color:yellow;
+     
+   
+}
+#course .box .course-detail{  
+    height:auto;
+    background:linear-gradient(rgb(233, 221, 221),rgb(219, 212, 212));
+}
+
+ #course .box .course-detail .Heading{
+    background-color:#803486;
+    height:40px;
+    padding:7px 0px;
+    color:white;
+    text-align:center;
+}
+ #course .box .course-detail .course-row p{
+    padding:5px 10px;
+}
+#course .box .course-detail .btn{
+    padding:0px 6px;
+    border:none;
+
+}
+
+/*
+#course .box{
+    background-color:white;
+    box-shadow:0px 0px 1px gray;
+    width:400px;
+    height:auto;
+    padding:20px;
+    border-top:10px solid blue;
+    border-bottom:10px solid red;
+    border-radius:3px;
+    position:relative;
+    margin-bottom:100px;
+
+}
+#course .box .img{
+   
+    width:100%;
+    height:100%;
+}
+
+
+.course-detail p{
+    padding:auto 10px;
+}
+.course-row{
+    border-bottom:1px solid white;
+}
+
+    */
+/* ................Course end.......................... */
+/* ................Gallery start........................ */
+#Gallery-section{
+    height:auto;
+    background-color:#e2e2e2;
+    padding:100px 0px;
+}
+.gallery-width{
+    width:400px;
+    height:100%;
+    border-radius:30px;
+    margin:20px 0px;
+
+    
+}
+
+#Gallery-section .gallery-width img{
+    border-radius:30px;
+    transition: 0.6s all;
+}
+
+#Gallery-section .gallery-width:hover img{
+    transform: scale(1.1);
+}
+
+.margin-30{
+    margin-bottom:30px;
+    margin-top:100px;
+}
+
+.margin-50{
+    margin:10px 0px 50px 0px;
+}
+
+
+/* ................Gallery end........................ */
+/* ................Status start......................... */
+#Status-section{
+    height:auto;
+   
+    padding:100px 0px;
+}
+#Status-section .status-box{
+    text-align:center;
+    border:2px solid gray;
+    padding:20px 0px;
+    background-color:#803486;
+    color:white;
+    transition: 0.6s all;
+    
+    
+}
+#Status-section .status-box:hover{
+    background-color:white;
+    color:#803486;
+}
+#Status-section .status-box h3{
+    font-weight:normal;
+    font-size:24px;
+    margin:20px 0px;
+}
+
+#Status-section .status-box h2{
+    font-weight:semibold;
+}
+
+/* ................Status end......................... */
+/* ................Bulk Message start.................. */
+#Bulk_Message{
+    height:auto;
+    background-color:green;
+}
+/* ................Bulk Message end.................. */
+/* ................Contact start...................... */
+#Contact-section{
+    height:auto;
+    background-color:#e2e2e2;
+    padding:100px 0px;
+}
+
+#Contact-section .google-map{
+    border:1px dashed #803486;
+   
+    
+}
+#Contact-section #address .google-address{
+    width:100%;
+    height:300px;
+    border:1px dashed #803486;
+    position:relative;
+    text-align:center;
+    padding:70px 0px;
+
+}
+
+
+.location{
+     margin:0px 0px 20px 0px;
+    border:2px dashed #803486;
+}
+
+.form{
+    text-align:center;
+    justify-content:center;
+     background-color:gray;
+    border-left:1px solid gray;
+    border-right:1px solid gray;
+    border-bottom:1px solid gray;
+    margin:100px 0px;
+    border-radius:5px;
+    color:white;
+
+}
+.form .main{
+}
+.align-left{
+    text-align:left;
+}
+
+
+/* ................Contact end...................... */
+
+
+ /* ALL COMPONENTS SECTION END*/
+
+
+ /* RESPONSIVE SECTION START */
+
+ /* RESPONSIVE SECTION END */
