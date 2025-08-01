@@ -11,7 +11,7 @@ function Topheader() {
         <div className='Topheader'>
             <Container>
                 <Row className='center'>
-                    <Col lg={3} className='contact'>
+                    {/* <Col lg={3} className='contact'>
                         <FontAwesomeIcon icon={faPhone} />
                         &nbsp;&nbsp;<i>Call Us: 0771-4520041<br></br>
                          <FontAwesomeIcon icon={faMobile} />    
@@ -26,7 +26,8 @@ function Topheader() {
                     <Col lg={3} className='address'>
                         <FontAwesomeIcon icon={faHome} />
                          &nbsp;<i>Address: 1st Floor, Roshan Complex, Amlidihi Road, Raipur(Chhattisgarth)</i>
-                    </Col>
+                    </Col> 
+                    
                     <Col  lg={3} className='social-icons d-flex'>
                             <Col lg={2} className='proprety_box' id='whatsapp'>
                              <span>
@@ -51,8 +52,20 @@ function Topheader() {
                             <span><FontAwesomeIcon icon={faEnvelope} className='fs-5'/></span>
                             </Col>
 
+                    </Col>*/}
+                    <Col lg={6}>
+                        <div className="head d-flex">
+                            <h3>BEST COMPUTER & CONSULTANCY </h3><p className='my-3'>PRIVATE LIMITED</p>
+                            
+                        </div>
                     </Col>
-
+                    <Col lg={6}>
+                        <div className='time'>
+                            <FontAwesomeIcon icon={faClock} />
+                         &nbsp;Open : 8:30 AM&nbsp;&nbsp;|
+                         &nbsp; Close : 8:30 PM&nbsp;
+                        </div>
+                    </Col>
                 </Row>
             </Container>
         </div>

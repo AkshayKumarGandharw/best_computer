@@ -7,7 +7,7 @@
     function Acc_tax_solu_syllabus() {
       return (
         <>
-        <Comman props={{title:"Download",subtitle:"Accounting and Taxation Solutions | Syllabus"}}/>
+        {/* <Comman props={{title:"Download",subtitle:"Accounting and Taxation Solutions | Syllabus"}}/>
                 <Course_syllabus
                 
                 props={{
@@ -16,7 +16,8 @@
                   content:"Note that the development build is not optimized.To create a production build, use npm run build.webpack compiled successfully"
                   }} 
                 />
-        
+                 */}
+        <Course_syllabus  props={{downloadUrl:"https://www.google.com/ " , fileName:"file.pdf" , buttonText:"Acc and Tax. Syllabus"}}/>
         
         </>
       )

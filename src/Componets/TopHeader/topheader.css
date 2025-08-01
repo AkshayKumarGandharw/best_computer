@@ -1,14 +1,26 @@
-.Topheader{
-    
-        background-color:#803486;
+.Topheader{     
         color:white;
-        height:60px;
-       
+        height:auto;
+        background-color:#803486;
         font-weight:bold;
         font-size:12px;
 }
 .Topheader .contact,.Topheader .timing,.Topheader .address{
     padding:12px 0px;
+}
+.Topheader .center .head{
+   
+    background:linear-gradian(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+}
+.Topheader .center .head h3{
+    color:#97b1c2;
+    font-weight:bold;
+    padding:5px 0px;
+    
+}
+.Topheader .center .time{
+    text-align:right;
+    padding:10.5px 0px;
 }
 /* .Topheader .social-icons{
     padding:22px 0px;

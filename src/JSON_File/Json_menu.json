@@ -10,7 +10,8 @@
         "DropdownMenu": [
             {
                 "label": "Accounting & Taxation",
-                "link": "/accandtax"
+                "link": "/accandtax",
+                "image": "digital_marketing.jpg"
             },
             {
                 "label": "Share Market",
@@ -47,48 +48,6 @@
             {
                 "label": "Digital Marketing",
                 "link": "digitalmarketing"
-            }
-        ]
-    },
-    {
-        "label": "Student Details",
-        "link": "/stu_details",
-        "isDropdown": true,
-        "DropdownMenu": [
-            {
-                "label": "Student d-1",
-                "link": "/stu_d1"
-            },
-            {
-                "label": "Student d-2",
-                "link": "/stu_d2"
-            },
-            {
-                "label": "Student d-3",
-                "link": "/stu_d3"
-            },
-            {
-                "label": "Student d-4",
-                "link": "/stu_d4"
-            }
-        ]
-    },
-    {
-        "label": "Job Consultancy",
-        "link": "/jobconsultancy",
-        "isDropdown": true,
-        "DropdownMenu": [
-            {
-                "label": "Job C-1",
-                "link": "/job-c1"
-            },
-            {
-                "label": "Job C-1",
-                "link": "/job-c1"
-            },
-            {
-                "label": "Job C-1",
-                "link": "/job-c1"
             }
         ]
     },

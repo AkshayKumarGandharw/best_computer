@@ -13,7 +13,7 @@
 #footer-section{
     background-color:#803486;
     color:white;
-    height:400px;
+    height:300px;
     padding:50px 0px;
     
 }
@@ -25,10 +25,34 @@
 
 #footer-section .image-logo{
     border-radius:50%;
+   
+}
+
+#footer-section .container .row .col-md-4 .logo .brand{
+    text-align:center;
+    background-color:black;
 }
 
 .logo {
-    margin-bottom:80px;
+     margin-bottom:25px; 
+}
+
+#footer-section .container .row .col-md-4 .contact{
+    margin-left:30px;
+}
+
+#footer-section .container .row .col-md-8 .col-md-4 ul {
+    margin-top:15px;
+    padding-left:0px;
+}
+
+#footer-section .container .row .col-md-8 .col-md-4 ul li {
+    list-style:none;   
+}
+#footer-section .container .row .col-md-8 .col-md-4 ul li a {
+    text-decoration:none;
+    color:white;
+    font-weight:normal;
 }
 /* ...........FOOTER END................... */
 /* ...........Footer part two start................ */
@@ -62,9 +86,8 @@
     /* background-color:white; */
 }
 .footer .footer-second span:hover{
-    border:1px solid white;
-    background-color:pink;
-    background-color:blue;
+    
+   
 }
 /* ...........Footer part two end................ */
 

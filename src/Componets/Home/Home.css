@@ -6,7 +6,7 @@
  /* ------hover effect -------start  */
 
  #course .box:hover{
-    background-color:yellow;
+    background-color:#E2E8F0;
     transition:all 0.5s;
  }
  /* ------hover effect -------end */
@@ -20,6 +20,24 @@
     background-color:blue;
     border-radius:5px;
     border:none;
+}
+ .btn-outline-white{
+    padding:10px 5px;
+    color:gray;
+    font-size:15px;
+    font-weight:semibold;
+    background-color:white;
+    border-radius:5px;
+    border:1px solid gray;
+}
+.btn-outline-white:hover{
+    padding:10px 5px;
+    color:white;
+    font-size:15px;
+    font-weight:semibold;
+    background:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+    border-radius:5px;
+    border:1px solid white;
 }
 .btn-outline-accent{
     padding:10px 15px;
@@ -114,122 +132,76 @@
     overflow:hidden;
     
   }
-   #Notice-section .notice-info{
-    border-right:2px solid black;
-   }
+#Notice-section .mySwiper{
+    background-color:white;
+    padding:40px 10px;
+    border:1px solid #c7cbcfff;
+}
  
-  #Notice-section .swiper {
-    width:670px;
+.mySwiper{
+    width:100%;
     height:500px;
-    position:absolute;
-    
 }
 
-#Notice-section .swiper .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-   
 
-  /* Center slide text vertically */
-  display: flex;
-  justify-content: center;
-  align-items: center;
- 
-}
 
-#Notice-section .swiper .swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 50px;
-  object-fit: cover;
-}
 .latest-post .heading-post  {
-    background-color:#803486;
+    /* background-color:#803486; */
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:white;
     line-height:50px;
     height:50px;
-    width:670px;
+    width:270px;
     padding:15px;
     text-align:center;
-    color:white;
+    color:gray;
+    box-shadow:1px 1px 5px 5px #cbd0d6ff;
     
 }
-#Notice-section .swiper .swiper-slide .color{
-    color:cyan;
-    background-color:gray;
-    height:35px;
-    line-height:35px;
-    margin:7px 20px  7px 20px;
 
-}
 
-#Notice-section .swiper .swiper-slide p{
-    padding:15px;
-    text-align:left;
-    box-shadow:0px 0px 1px gray;
-    background-color:#e2e2e2;
-    margin:0px 20px;
-    
-}
+
 /* -----Important link and other details--------- start*/
-  #Notice-section .notice-info-other_important{
-    border-right:2px solid black;
-   }
  
-  #Notice-section  .notice-info-other_important .swiper {
-    width:300px;
-    height:500px;
-    position:absolute;
-    
-}
-
-#Notice-section .notice-info-other_important .swiper .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-   
-
-  /* Center slide text vertically */
-  display: flex;
-  justify-content: center;
-  align-items: center;
  
-}
-
-#Notice-section .notice-info-other_important .swiper .swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 50px;
-  object-fit: cover;
-}
-.latest-post-other_important .heading-post-other_important  {
-    background-color:#803486;
-    line-height:50px;
-    height:50px;
-    width:300px;
-    padding:15px;
-    text-align:center;
-    color:white;
-    
-}
-#Notice-section .notice-info-other_important .swiper .swiper-slide .color{
-    color:cyan;
-    background-color:gray;
-    height:35px;
-    line-height:35px;
-    margin:7px 20px  7px 20px;
-
-}
-
-#Notice-section  .notice-info-other_important .swiper .swiper-slide p{
-    padding:15px;
-    text-align:left;
-    box-shadow:0px 0px 1px gray;
-    background-color:#e2e2e2;
-    margin:0px 20px;
-    
-}
 /* -----Important link and other details--------- end*/
+
+
+/*----Notice Placement Section ------start*/
+.Notice-section .latest-post .mySwiper{
+    background-color:green;
+}
+.card{
+    background-color:white;
+    box-shadow:0px 0px 1px #cbd0d6ff;
+    width:200px;
+    height:400px;
+    padding:10px;
+    border-radius:20px;
+    color:black;
+}
+
+ .img-card{
+    width:100%;
+    height:100%;
+    border:1px solid gray;
+
+}
+
+.img-card img{
+    width:100%;
+    height:200px;
+}
+
+.card .content{
+    margin-top:10px;
+}
+
+/*----Notice Placement Section ------end*/
+
+
 
 /* ................Notice end............................ */
 /* ................Course start.......................... */
@@ -239,42 +211,69 @@
 }
 #course .box{
     display:flex;
+    position:relative;
     border-radius:20px;
-    padding:10px 0px 10px 15px;
-    background-color:#e2e2e2;
+    padding:10px 10px 10px 15px;
+    /* background-color:#e2e2e2; */
+    background-color:white;
     margin-bottom:30px;
+    box-shadow:1px 1px 5px 1px gray;
     transition:all 0.5s;
+    height:300px;
+     
    
     
 }
 #course .box .img{
-    width:300px;
-    height:300px;
-    background-color:gray;
-    
-
+    /* width:300px;
+    height:300px; */
+    width:50%;
+    /* background-color:gray; */
+    background-color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+     border-radius:20px 0px 0px 20px;
 }
 
 #course .box .img img{
-    width:100%;
-    height:100%;
+    width:200px;
+    height:200px;
     background-color:yellow;
-     
-   
 }
+
 #course .box .course-detail{  
+    width:50%;
     height:auto;
-    background:linear-gradient(rgb(233, 221, 221),rgb(219, 212, 212));
+    /* background:linear-gradient(rgb(233, 221, 221),rgb(219, 212, 212)); */
+    background-color:white;
+     border-radius:0px 20px 20px 0px;
 }
 
  #course .box .course-detail .Heading{
-    background-color:#803486;
+    /* background-color:#803486; */
+    background-color:white;
     height:40px;
     padding:7px 0px;
-    color:white;
+    color:black;
     text-align:center;
 }
- #course .box .course-detail .course-row p{
+.h3{
+    background-image:linear-gradient(to right,blue,#3B6411,green);
+    -webkit-background-clip: text;
+    background-clip:text;
+    color:transparent;
+}
+
+
+ #course .box .course-detail .course-row .h3{
+    /* color:linear-gradient(rgb(#7CCF35),rgb(#FF692A)); */
+    /* background-image:linear-gradient(to right,blue,#3B6411,green);
+    -webkit-background-clip: text;
+    background-clip:text;
+    color:transparent; */
+} 
+#course .box .course-detail .course-row p{
     padding:5px 10px;
 }
 #course .box .course-detail .btn{
@@ -283,6 +282,30 @@
 
 }
 
+  .course-tag{
+    position:absolute;
+    display:flex;
+    width:200px;
+    height:60px;
+    background:linear-gradient(to right,red,#155DFC);
+    color:white;
+    font-weight:bold;
+    border:1px solid red;
+    border-radius:20px 0px 20px 0px;
+    align-items:center;
+    justify-content:center;
+    
+}
+
+.icon-background{
+    width:30px;
+    height:30px;
+    color:green;
+    border:1px solid #E2E8F0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
 /*
 #course .box{
     background-color:white;
@@ -319,6 +342,11 @@
     background-color:#e2e2e2;
     padding:100px 0px;
 }
+
+#Gallery-section .container .row .tabs { 
+    padding:0px 450px;
+}
+
 .gallery-width{
     width:400px;
     height:100%;
@@ -334,7 +362,7 @@
 }
 
 #Gallery-section .gallery-width:hover img{
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .margin-30{
@@ -342,6 +370,9 @@
     margin-top:100px;
 }
 
+.margin-b-50{
+    margin-bottom:50px;
+}
 .margin-50{
     margin:10px 0px 50px 0px;
 }
@@ -397,7 +428,7 @@
    
     
 }
-#Contact-section #address .google-address{
+#Contact-section #address-detail .google-address{
     width:100%;
     height:300px;
     border:1px dashed #803486;
@@ -429,6 +460,23 @@
 }
 .align-left{
     text-align:left;
+}
+
+
+
+.modal .modal-header{
+    background-color:#803486;
+    color:white;
+    
+}
+.modal .modal-body{
+    background-color:#803486;
+    color:white;
+}
+
+.modal .modal-footer{
+    background-color:#803486;
+    color:white;
 }
 
 

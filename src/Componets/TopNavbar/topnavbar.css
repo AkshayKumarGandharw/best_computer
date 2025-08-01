@@ -1,11 +1,11 @@
 #Topnavbar{
     background-color:white;
-    max-height:300px;
+    /* max-height:300px; */
 }
 
 .Link{
-    margin-right:25px;
-    margin-left:25px;
+    /* margin-right:21px;
+    margin-left:21px; */
 }
 
 .bg-purple{
@@ -19,4 +19,22 @@
     margin-left:10px;
     font-weight:bold;
 
+}
+
+.navdrop_submenu .dropdown-toggle  .drowpdown-menu {
+    color:red;
+    background-color:green;
+}
+.dropdown-menu.show {
+    width:300px;
+    
+    background:#803486;
+}
+.dropdown-menu.show .nav-link{
+    color:#F5F5F5;
+    box-shadow:0px 0px 1px #C6C6C6;
+}
+
+.dropdown-menu.show .nav-link:hover{
+   background: #872d8dff;
 }

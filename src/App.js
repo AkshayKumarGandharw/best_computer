@@ -29,6 +29,7 @@ import Digital_marketing_syllabus from './Componets/Download/Digital_marketing_s
 import Share_market_syllabus from './Componets/Download/Share_market_syllabus';
 import Computer_basic_syllabus from './Componets/Download/Computer_basic_syllabus';
 import Video_editing_syllabus from './Componets/Download/Video_editing_syllabus';
+import Contact from './Componets/Home/Contact/Contact';
 
 
 function App() {
@@ -41,8 +42,10 @@ function App() {
       <Routes>
         {/* ......Home Menu......... */}
         <Route path='/' element={<Home/>}/>
+        <Route path='/contactus' element={<Contact/>}/>
+        
 
-        {/* ......Education Menu................. */}
+        {/* ......Course Menu................. */}
         <Route path='/accandtax' element={<Acc_and_tax/>}/>
         <Route path='/sharemarket' element={<Share_Market/>}/>
         <Route path='/computerbasic' element={<Computer_basic/>}/>
