@@ -127,6 +127,53 @@ NavDropdown{
     color:green;
 }
 /* .........navbar in sub menu (dropdown menu)............end */
+
+/* .........Registration Form Here ......................start */
+.form-reg-here{
+    background-color: #f7f4f4ff;
+    padding:40px;
+}
+
+.experince-teachers{
+    background-color:#f7f4f4ff;
+    padding:30px 20px;
+    display:flex;
+  
+    
+}
+.experince-teachers .rectangle-box{
+    background-color:white;
+    color:black;
+    width:400px;
+    height:200px;
+    box-shadow:0.5px 0.5px 2px #f7f4f4ff;
+    border-radius:20px;
+    padding:25px 25px;
+    margin-right:10px;
+    display:flex;
+}
+.experince-teachers .rectangle-box .img-circle{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    background-color:#e2e2e2;
+}
+.experince-teachers .rectangle-box .profile-teacher{
+    color: #e6e2e2ff;
+    padding-top:25px;
+}
+
+.experince-teachers .rectangle-box .profile-teacher p{
+    padding-left:20px; 
+    
+}
+
+.width-less-100 {
+    width:100%;
+    height:100px;
+    padding:20px;
+}
+/* .........Registration Form Here ......................end */
 /* ...............COMMAN SECTION END................. */
 
 /*......RESPONSIVE SECTION START */

@@ -1,5 +1,6 @@
 
 import './App.css';
+import {NoteState} from './ContextAPI/CourseContext/NoteState';
 import bootstrap from 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Topnavbar from './Componets/TopNavbar/Topnavbar';
@@ -32,10 +33,12 @@ import Video_editing_syllabus from './Componets/Download/Video_editing_syllabus'
 import Contact from './Componets/Home/Contact/Contact';
 
 
+
 function App() {
   return (
    <>
-   
+
+   <NoteState>
     <BrowserRouter>
     <Topheader/>
     <Topnavbar/>
@@ -77,7 +80,7 @@ function App() {
       </Routes>
       <Footer/>
     </BrowserRouter>
-   
+   </NoteState>
    </>
   );
 }
