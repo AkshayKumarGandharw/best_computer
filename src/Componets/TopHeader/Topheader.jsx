@@ -2,7 +2,7 @@ import React from 'react';
 import './topheader.css';
 import { Container, Row, Col } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPhone, faHome, faMobile,faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faPhone, faHome, faMobile,faEnvelope, faBuildingCircleArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { faWhatsapp, faInstagram, faFacebook, faYoutube,faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faClock } from '@fortawesome/free-regular-svg-icons';
 
@@ -55,7 +55,7 @@ function Topheader() {
                     </Col>*/}
                     <Col lg={6}>
                         <div className="head d-flex">
-                            <h3>BEST COMPUTER & CONSULTANCY </h3><p className='my-3'>PRIVATE LIMITED</p>
+                            <h3>BEST COMPUTER & CONSULTANCY </h3><p className='my-3'><span style={{color:'yellow'}}>PRIVATE</span>&nbsp;<span style={{color:'red'}}>LIMITED</span></p>
                             
                         </div>
                     </Col>
@@ -64,6 +64,12 @@ function Topheader() {
                             <FontAwesomeIcon icon={faClock} />
                          &nbsp;Open : 8:30 AM&nbsp;&nbsp;|
                          &nbsp; Close : 8:30 PM&nbsp;
+                        </div>
+                        <div className='day'>
+                           <FontAwesomeIcon icon={faBuildingCircleArrowRight} />
+                             &nbsp;Mon - to - Sat &nbsp;&nbsp;|
+                             &nbsp; Close : Sun &nbsp;
+                    
                         </div>
                     </Col>
                 </Row>

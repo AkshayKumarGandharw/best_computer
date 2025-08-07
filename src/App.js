@@ -1,6 +1,6 @@
-
+import React from "react";
 import './App.css';
-import {NoteState} from './ContextAPI/CourseContext/NoteState';
+import NoteState from './ContextAPI/CourseContext/NoteState';
 import bootstrap from 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Topnavbar from './Componets/TopNavbar/Topnavbar';
@@ -30,7 +30,8 @@ import Digital_marketing_syllabus from './Componets/Download/Digital_marketing_s
 import Share_market_syllabus from './Componets/Download/Share_market_syllabus';
 import Computer_basic_syllabus from './Componets/Download/Computer_basic_syllabus';
 import Video_editing_syllabus from './Componets/Download/Video_editing_syllabus';
-import Contact from './Componets/Home/Contact/Contact';
+import Aboutus from './Componets/Home/About/Aboutus';
+import Contactus from "./Componets/ContactUs/Contactus";
 
 
 
@@ -45,7 +46,9 @@ function App() {
       <Routes>
         {/* ......Home Menu......... */}
         <Route path='/' element={<Home/>}/>
-        <Route path='/contactus' element={<Contact/>}/>
+        <Route path='/contactus' element={<Contactus/>}/>
+        <Route path='/about_Us' element={<Aboutus/>}/>
+
         
 
         {/* ......Course Menu................. */}

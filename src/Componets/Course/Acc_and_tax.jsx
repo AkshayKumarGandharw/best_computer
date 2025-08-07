@@ -1,10 +1,16 @@
-import React from 'react'
+import React, { useState, useContext } from 'react';
+import { Container, Row, Col, Modal, Form } from 'react-bootstrap';
 import Comman from '../Comman/Comman';
 import Course_syllabus from '../Comman/Course_syllabus';
-import Course_Frame from '../Comman/Course_Frame';
+import Course_Form from '../Comman/Course_Form';
+import noteContext from '../../ContextAPI/CourseContext/noteContext';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBookOpenReader, faIndianRupeeSign, faTimeline } from '@fortawesome/free-solid-svg-icons';
 
 
 function Acc_and_tax() {
+   const a = useContext(noteContext)
   return (
     <>
         <Comman props={{title:"Education",subtitle:"Accounting and Taxation"}}/>
@@ -15,7 +21,166 @@ function Acc_and_tax() {
           titlecontent:"Accounting & Taxation Syllabus", content:"Note that the development build is not optimized.To create a production build, use npm run build.webpack compiled successfully"
           }} 
         />
-        <Course_Frame/>
+        <section className='course-frame'>
+        <Container fluid className='colorBackground'>
+          <Row>
+            <Col lg={8}>
+              <h2 className='px-3 py-2'>{a.titleAt}</h2>
+              <p className='px-3 py-2'>{a.shortDescriptionTx}</p>
+              <p className='px-3 '>Duration:{a.courseDurationOne}</p>
+              <p className='px-3 '>Fee:{a.courseFeeTwo}</p>
+
+              <h2 className='px-3 pt-3'>Syllabus</h2>
+              <ul className='mx-3 '>
+                <li ><a href="">{a.linkOne}</a></li>
+                <li ><a href="">{a.linkOne}</a></li>
+                <li ><a href="">{a.linkOne}</a></li>
+                <li ><a href="">{a.linkOne}</a></li>
+                <li ><a href="">{a.linkOne}</a></li>
+                <li ><a href="">{a.linkOne}</a></li>
+                <li ><a href="">{a.linkOne}</a></li>
+
+              </ul>
+              <h2 className='px-3 pt-3 pb-2'>Book Now </h2>
+              <div className="form-reg-here" >
+
+                <Course_Form />
+              </div>
+              <h2 className='px-3 pt-3'>Experience Teachers </h2>
+              <div className="experince-teachers">
+                <div className="rectangle-box">
+                  <div className="img-circle">
+                    <img src={a.titleImageTx} alt="" />
+                  </div>
+                  <div className="profile-teacher">
+                    <p>{a.teacherOneFullName}</p>
+                    <p>{a.teacherOneSubject}</p>
+                    <p>{a.teacherOneExperience}</p>
+                  </div>
+                </div>
+                <div className="rectangle-box">
+                  <div className="img-circle">
+                    <img src={a.titleImageTx} alt="" className='' />
+                  </div>
+                  <div className="profile-teacher">
+                    <p>{a.teacherTwoFullName}</p>
+                    <p>{a.teacherTwoSubject}</p>
+                    <p>{a.teacherTwoExperience}</p>
+                  </div>
+                </div>
+
+              </div>
+
+            </Col>
+            <Col lg={4}>
+              <div className="box-3">
+                <div className='course-tag'>
+                  <h3 className='center '>COURSE</h3>
+                </div>
+                <div className="img">
+                  <img src={a.titleImageTx} alt="" className='img-fluid width-less-100' />
+                </div>
+                <div className="course-detail">
+                  <div className="row course-row px-3 pe-3">
+                    <div className="col d-flex py-3  ">
+                      <div className="icon-background"><FontAwesomeIcon icon={faBookOpenReader} className='' /></div>
+                      <div className="ms-2 "><h3 className='h3'><b>{a.titleAt} </b></h3></div>
+                    </div>
+                  </div>
+                  <div className="row course-row px-3 pe-3 ">
+                    <div className="col d-flex">
+                      <div className="icon-background"><FontAwesomeIcon icon={faTimeline} /></div>
+                      <div className="col"><p><b>&nbsp;{a.courseDurationOne} </b></p></div>
+                    </div>
+                  </div>
+                  <div className="row course-row px-3 pe-3 pb-3">
+                    <div className="col d-flex">
+                      <div className="icon-background"> <FontAwesomeIcon icon={faIndianRupeeSign} /></div>
+                      <div className="col"><p><b> &nbsp;{a.courseFeeTwo} </b></p></div>
+                    </div>
+                  </div>
+                  {/* <div className="row course-row">
+                                                                    <div className="col d-flex">
+                                                                        <div className='center btn'>
+                                                                    <button className='btn-outline-white' onClick={() => { setBool(true) }}>REGISTER NOW</button>
+                
+                                                                    <Modal show={bool} onHide={() => { setBool(false) }}>
+                                                                        <Modal.Header closeButton>
+                
+                                                                            <h3>Registration Form</h3>
+                
+                                                                        </Modal.Header>
+                                                                        <Modal.Body>
+                                                                            <Form>
+                                                                                <Form.Group>
+                                                                                    <Form.Label>Name:</Form.Label>
+                                                                                    <Form.Control
+                                                                                        type="text"
+                                                                                        placeholder=" Enter Your Name"
+                                                                                    />
+                
+                                                                                </Form.Group>
+                                                                                <Form.Group>
+                                                                                    <Form.Label>Email-Id:</Form.Label>
+                                                                                    <Form.Control
+                                                                                        type="email"
+                                                                                        placeholder=" Enter Your Email-Id"
+                                                                                    />
+                
+                                                                                </Form.Group>
+                                                                                <Form.Group>
+                                                                                    <Form.Label>Contact No.:</Form.Label>
+                                                                                    <Form.Control
+                                                                                        type="number"
+                                                                                        placeholder=" Enter Your Contact No."
+                                                                                    />
+                
+                                                                                </Form.Group>
+                                                                                <Form.Group>
+                                                                                    <Form.Label>Address:</Form.Label>
+                                                                                    <Form.Control
+                                                                                        type="text"
+                                                                                        placeholder=" Enter Your Name"
+                                                                                    />
+                
+                                                                                </Form.Group>
+                                                                            </Form>
+                                                                        </Modal.Body>
+                                                                        <Modal.Footer>
+                                                                            <button className='btn-outline-danger'  >Close</button>
+                                                                        </Modal.Footer>
+                
+                                                                    </Modal>
+                                                                        </div>
+                                                                        <div className='center btn'>
+                                                                    <button className='btn-outline-accent margin-left' onClick={() => { setSyllabus(true) }}>VIEW SYLLABUS</button>
+                                                                    <Modal show={syllabus} onHide={() => { setSyllabus(false) }}>
+                                                                        <Modal.Header closeButton>
+                
+                                                                            <h3 >Course Name</h3>
+                
+                                                                        </Modal.Header>
+                                                                        <Modal.Body>
+                                                                            <p>Syllabus Details</p>
+                                                                        </Modal.Body>
+                
+                                                                        <Modal.Footer>
+                                                                            <button className='btn-outline-danger'>Close</button>
+                                                                        </Modal.Footer>
+                
+                                                                    </Modal>
+                                                                        </div>
+                                                                    </div>
+                                                                </div> */}
+
+
+                </div>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+
+      </section>
 
     </>
   )

@@ -12,7 +12,7 @@ function Footer() {
       <footer id='footer-section'>
         <div className="container">
           <div className="row">
-            <div className="col-md-4">
+            <div className="col-lg-4 col-md-6 ">
               <div className="logo">
                 <Navbar.Brand href="#" className='brand'>
 
@@ -32,7 +32,7 @@ function Footer() {
               </div>
             </div>
 
-            <div className="col-md-8 d-flex">
+            <div className="col-lg-8 col-md-6 d-flex">
               <div className="col-md-4">
                 <u><b>MENU</b></u>
                <ul>

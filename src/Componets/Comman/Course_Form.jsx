@@ -5,7 +5,7 @@ import Row from 'react-bootstrap/Row';
 
 function Course_Form() {
   return (
-    <Form>
+    <Form className='form-property'>
       <Row className="mb-3">
         <Form.Group as={Col} controlId="formGridEmail">
           <Form.Label>Email</Form.Label>

@@ -9,6 +9,8 @@
     background-color:#E2E8F0;
     transition:all 0.5s;
  }
+
+ 
  /* ------hover effect -------end */
 
  /* BUTTON SECTION START */
@@ -47,7 +49,19 @@
     background-color:purple;
     border-radius:5px;
     border:none;
+    transition: all 0.4s ;
 }
+
+.btn-outline-accent:hover {
+    padding:10px 15px;
+    color:purple;
+    font-size:15px;
+    font-weight:semibold;
+    background-color:white;
+    border-radius:5px;
+    border:1px solid purple;
+}
+
 .btn-outline-danger{
     padding:10px 15px;
     color:white;
@@ -73,11 +87,16 @@
 .text-green{
     color:green;
 }
-
+.text-light-gray{
+    color:#808B96;
+}
 .text-purple{
     color:#803486;
 }
-
+.text-orange{
+    color:orange;
+    box-shadow:1px 1px 3px 2px gray;
+}
 .margin-left{
     margin-left:20px;
 }
@@ -88,6 +107,49 @@
  /* ---comman property----end */
 
  /* ALL COMPONENTS SECTION START*/
+ /* ......Aboutus..................................start */
+ .aboutus-section{
+    background-color:#F7F4F4;
+    height:auto;
+    padding:40px;
+
+ }
+ .aboutus-section .aboutus-container{
+    background-color:white;
+    padding:40px;
+    
+ }
+
+  .aboutus-section .aboutus-container .img-aboutus{
+     
+     box-shadow:1px 1px 4px 3px #F7F4F4;
+     border-radius:30px;
+     margin-bottom:30px;
+     text-align:center;
+  }
+
+  .aboutus-section .aboutus-container .img-aboutus img{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    
+    background-color:#F7F4F4;
+  }
+  .aboutus-section .aboutus-container .content-aboutus{
+     box-shadow:1px 1px 4px 3px #F7F4F4;
+     height:200px;
+     padding:20px;
+     border-radius:30px;
+     margin-bottom:30px;
+  }
+
+  .aboutus-section .aboutus-container .about-your-self{
+    box-shadow:1px 1px 4px 3px #F7F4F4;
+    height:400px;
+    border-radius:30px;
+    padding:20px;
+  }
+ /* ......Aboutus..................................end */
 /* ...............Photoslider start........................... */
 #Photoslider-section{
     position:relative;
@@ -127,13 +189,13 @@
 /* ................Notice start............................ */
   #Notice-section{
     height:800px;
-    background-color:#e2e2e2;
+    background-color:#F5F5F4;
     position:relative;
     overflow:hidden;
     
   }
 #Notice-section .mySwiper{
-    background-color:white;
+    background-color:purple;
     padding:40px 10px;
     border:1px solid #c7cbcfff;
 }
@@ -146,11 +208,11 @@
 
 
 .latest-post .heading-post  {
-    /* background-color:#803486; */
+    background-color:purple;
     display:flex;
     justify-content:center;
     align-items:center;
-    background-color:white;
+    /* background-color:white; */
     line-height:50px;
     height:50px;
     width:270px;
@@ -170,11 +232,14 @@
 
 
 /*----Notice Placement Section ------start*/
+.Notice-section .latest-post{
+    
+}
 .Notice-section .latest-post .mySwiper{
     background-color:green;
 }
 .card{
-    background-color:white;
+    /* background-color:white; */
     box-shadow:0px 0px 1px #cbd0d6ff;
     width:200px;
     height:400px;
@@ -201,7 +266,17 @@
 
 /*----Notice Placement Section ------end*/
 
-
+/* .....Notice Annoucement Section .....start */
+.card-2{
+    /* background-color:white; */
+    box-shadow:0px 0px 1px #cbd0d6ff;
+    width:100%;
+    height:auto;
+    padding:10px;
+    border-radius:20px;
+    color:white;
+}
+/* .....Notice Annoucement Section .....end */
 
 /* ................Notice end............................ */
 /* ................Course start.......................... */

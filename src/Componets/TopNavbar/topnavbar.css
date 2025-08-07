@@ -27,8 +27,7 @@
 }
 .dropdown-menu.show {
     width:300px;
-    
-    background:#803486;
+    background:purple;
 }
 .dropdown-menu.show .nav-link{
     color:#F5F5F5;
@@ -38,3 +37,4 @@
 .dropdown-menu.show .nav-link:hover{
    background: #872d8dff;
 }
+

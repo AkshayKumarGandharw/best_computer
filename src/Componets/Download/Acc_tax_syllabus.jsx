@@ -1,21 +1,34 @@
    import React from 'react';
    import '../../App';
    import Comman from '../Comman/Comman';
-   import Course_syllabus from '../Comman/Course_syllabus';
+   import { Container,Row,Col,Button } from 'react-bootstrap';
 
    function Acc_tax_syllabus() {
      return (
         <>
          <Comman props={{title:"Download",subtitle:"Accounting and Taxation | Syllabus"}}/>
-        <Course_syllabus
         
-        props={{
-
-          titlecontent:"Accounting and Taxation | Syllabus", 
-          content:"Note that the development build is not optimized.To create a production build, use npm run build.webpack compiled successfully"
-          }} 
-        />
-        
+        <section className='download-section'>
+                  <Container className='download-container'>
+                    <h2 className='text-light-gray'>ACCOUNTING AND TAXATION | SYLLABUS</h2>
+                    <Row>
+                      <Col lg={8}>
+                      <div className='image-view-download'>
+                        <div className='img-upload-download'>
+                          <img src="" alt="" />
+                        </div>
+                      </div>
+                      </Col>
+                      <Col lg={4}>
+                        <div className="button-section">
+                          <Button className='preview-button mb-3'>Preview</Button>
+                          <Button className='preview-button mb-3'>Download</Button>
+                         
+                        </div>
+                      </Col>
+                    </Row>
+                  </Container>
+         </section>
         
         </>
      )

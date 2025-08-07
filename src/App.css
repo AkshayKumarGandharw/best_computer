@@ -4,6 +4,15 @@
     box-sizing:border-box;
 
 }
+/* ........Button section..........start */
+.preview-button{
+    width:100%;
+    height:45px;
+    background-color:purple;
+    color:white;
+    border-radius:20px; 
+}
+/* ........Button section..........end */
 
 /* ..........TOP-HEADER START.................. */
 /* ..........TOP-HEADER END.................. */
@@ -11,7 +20,7 @@
 /* ...........HEADER END..................... */
 /* ...........FOOTER START................... */
 #footer-section{
-    background-color:#803486;
+    background-color:#800080;
     color:white;
     height:300px;
     padding:50px 0px;
@@ -57,7 +66,7 @@
 /* ...........FOOTER END................... */
 /* ...........Footer part two start................ */
 .footer{
-    background-color:#803486;
+    background-color:#800080;
     color:white;
     overflow:hidden;
     padding:20px 0px;
@@ -128,14 +137,37 @@ NavDropdown{
 }
 /* .........navbar in sub menu (dropdown menu)............end */
 
-/* .........Registration Form Here ......................start */
-.form-reg-here{
+/* .................Course Frame ...........................start */
+
+.course-frame{
     background-color: #f7f4f4ff;
+    padding:40px 40px 40px 40px;;
+    
+
+}
+.padding-10{
+    padding:10px;
+}
+.course-frame .colorBackground{
+     background-color:white;
+     padding-top:20px;
+}
+/* .........Registration Form Here ......................start */
+.form-property{
+    
+}
+.box-3{
+    box-shadow:1px 1px 2px 2px #e6dfdfff;
+}
+
+.form-reg-here{
+    box-shadow:1px 1px 2px 2px #e6dfdfff;
     padding:40px;
+    margin-left:20px;
 }
 
 .experince-teachers{
-    background-color:#f7f4f4ff;
+   
     padding:30px 20px;
     display:flex;
   
@@ -146,7 +178,7 @@ NavDropdown{
     color:black;
     width:400px;
     height:200px;
-    box-shadow:0.5px 0.5px 2px #f7f4f4ff;
+    box-shadow:1px 1px 2px 2px #e6dfdfff;
     border-radius:20px;
     padding:25px 25px;
     margin-right:10px;
@@ -173,11 +205,69 @@ NavDropdown{
     height:100px;
     padding:20px;
 }
+
+.experince-teachers .rectangle-box .img-circle img{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+
+}
+
 /* .........Registration Form Here ......................end */
+/* .................Course Frame ...........................end */
 /* ...............COMMAN SECTION END................. */
 
+/* ........Download Section.................start */
+.download-section{
+    height:auto;
+    background-color:#F7F4F4;
+    padding:40px;
+}
+
+.download-section .download-container{
+    background-color:white;
+    padding:40px;
+
+}
+
+.download-section .download-container .image-view-download{
+    background-color:#F7F4F4;
+    height:450px;
+    width:100%;
+}
+.download-section .download-container .image-view-download .img-upload-download{
+    box-shadow:1px 1px 3px 3px #F7F4F4;
+}
+
+.download-section .download-container .button-section{
+    box-shadow:1px 1px 3px 3px #F7F4F4;
+    height:450px;
+    padding:30px;
+    
+}
+/* ........Download Section.................end */
+
 /*......RESPONSIVE SECTION START */
-@medea screen and(max-width: 346px){
+@medea screen and(min-width: 576px){
+
+
+}
+@medea screen and(max-width: 576px){
+
+
+}
+
+@medea screen and(max-width: 768px){
+
+
+}
+
+@medea screen and(max-width: 756px){
+
+
+}
+
+@medea screen and(max-width: 992px){
 
 
 }
