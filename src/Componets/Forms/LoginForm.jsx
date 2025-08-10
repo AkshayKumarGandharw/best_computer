@@ -20,13 +20,10 @@ function LoginForm() {
                 </Form.Group>
             </Row>
 
-            <Form.Group className="mb-3" id="formGridCheckbox">
-                <Form.Check type="checkbox" label="Check me out" />
+            <Form.Group className="mb-3 mt-1" id="formGridCheckbox">
+                <Form.Check type="checkbox" label="I agree all terms and condition" />
             </Form.Group>
 
-            <Button variant="primary" type="submit">
-                Submit
-            </Button>
         </Form>
     );
 }

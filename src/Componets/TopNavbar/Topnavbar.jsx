@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
+import React,{useState} from 'react';
 import './topnavbar.css';
 import '../../App';
 import '../Home/Home';
+
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
@@ -15,7 +16,11 @@ import { NavDropdown } from 'react-bootstrap';
 import JSON_File from '../../JSON_File/Json_menu.json';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faRightToBracket } from '@fortawesome/free-solid-svg-icons';
-import LoginForm from '../LoginForm/LoginForm';
+import LoginForm from '../Forms/LoginForm';
+
+
+
+
 
 function Topnavbar() {
 
@@ -75,7 +80,7 @@ function Topnavbar() {
             style={{ maxHeight: '200px' }}
             navbarScroll
           >
-
+            
             {
               //execute map function
               JSON_File.map((item, index) => {
@@ -95,9 +100,10 @@ function Topnavbar() {
 
             }
           </Nav>
+           
           {/* Form section */}
           <Form className="d-flex ">
-
+             
             {/* search box with button */}
             <InputGroup className='input-search mx-2'>
               <Form.Control
@@ -126,7 +132,9 @@ function Topnavbar() {
                 <LoginForm />
               </Modal.Body>
               <ModalFooter className='center'>
-
+                 <Button variant="btn btn-outline-accent" type="submit">
+                                Log In
+                 </Button>
               </ModalFooter>
             </Modal>
 

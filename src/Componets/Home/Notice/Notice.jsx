@@ -1,6 +1,6 @@
-import React, { useRef, useState } from 'react';
+import React from 'react';
 import '../../Home/Home.css';
-import { Container, Row, Col, Button } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 
 // Import Swiper styles
 import 'swiper/css';
@@ -18,8 +18,8 @@ import { Pagination, Navigation } from 'swiper/modules';
 
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowsTurnRight, faBullhorn, faLink, faLinkSlash } from '@fortawesome/free-solid-svg-icons';
-import { faBuilding, faNewspaper } from '@fortawesome/free-regular-svg-icons';
+import {  faBullhorn} from '@fortawesome/free-solid-svg-icons';
+import { faBuilding } from '@fortawesome/free-regular-svg-icons';
 import ScrollContainer from '../../Comman/ScrollContainer';
 
 
@@ -32,7 +32,7 @@ function Notice() {
       </span> <span className='text-green'><i><b>Notice</b></i></span></h2>
       <Container>
         <Row>
-          <Col lg={6}>
+          <Col lg={6} md={6} sm={12} className='mb-5'>
             <div className="latest-post">
               <div className="heading-post">
                 <h5>
@@ -43,18 +43,17 @@ function Notice() {
               <Swiper
                 autoplay={true}
                 navigation={true}
+                slidesPerView={3}
+                spaceBetween={1}
                 pagination={{
                   clickable: true,
                 }}
+                
                 modules={[Pagination, Navigation]}
                 className="mySwiper"
               >
 
-                <SwiperSlide slidesPerView={1} >
-
-                  <div className="row ">
-                    <div className="col d-flex">
-                      <div className="col">
+                <SwiperSlide >
                         <div className="card">
                           <p className='center'>Profile</p>
                           <div className="img-card">
@@ -66,40 +65,60 @@ function Notice() {
                             <p>Salary:</p>
                           </div>
                         </div>
-                      </div>
-                      <div className="col">
+                </SwiperSlide>
+                  <SwiperSlide >
                         <div className="card">
                           <p className='center'>Profile</p>
                           <div className="img-card">
                             <img src={'./images/digital_marketing.jpg'} alt="" />
                           </div>
                           <div className="content">
-                            <p>Name</p>
-                            <p>Company</p>
-                            <p>Salary</p>
+                            <p>Name:</p>
+                            <p>Company:</p>
+                            <p>Salary:</p>
                           </div>
                         </div>
-                      </div>
-                      <div className="col">
+                </SwiperSlide>
+                  <SwiperSlide  >
                         <div className="card">
                           <p className='center'>Profile</p>
                           <div className="img-card">
                             <img src={'./images/digital_marketing.jpg'} alt="" />
                           </div>
                           <div className="content">
-                            <p>Name</p>
-                            <p>Company</p>
-                            <p>Salary</p>
+                            <p>Name:</p>
+                            <p>Company:</p>
+                            <p>Salary:</p>
                           </div>
                         </div>
-                      </div>
-                    </div>
-                  </div>
+                </SwiperSlide>
+                  <SwiperSlide>
+                        <div className="card">
+                          <p className='center'>Profile</p>
+                          <div className="img-card">
+                            <img src={'./images/digital_marketing.jpg'} alt="" />
+                          </div>
+                          <div className="content">
+                            <p>Name:</p>
+                            <p>Company:</p>
+                            <p>Salary:</p>
+                          </div>
+                        </div>
+                </SwiperSlide>
+                  <SwiperSlide>
+                       <div className="card">
+                          <p className='center'>Profile</p>
+                          <div className="img-card">
+                            <img src={'./images/digital_marketing.jpg'} alt="" />
+                          </div>
+                          <div className="content">
+                            <p>Name:</p>
+                            <p>Company:</p>
+                            <p>Salary:</p>
+                          </div>
+                        </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <div className="row ">
-                    <div className="col d-flex">
-                      <div className="col">
                         <div className="card">
                           <p className='center'>Profile</p>
                           <div className="img-card">
@@ -111,73 +130,23 @@ function Notice() {
                             <p>Salary:</p>
                           </div>
                         </div>
-                      </div>
-                      <div className="col">
-                        <div className="card">
-                          <p className='center'>Profile</p>
-                          <div className="img-card">
-                            <img src={'./images/digital_marketing.jpg'} alt="" />
-                          </div>
-                          <div className="content">
-                            <p>Name</p>
-                            <p>Company</p>
-                            <p>Salary</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="col">
-                        <div className="card">
-                          <p className='center'>Profile</p>
-                          <div className="img-card">
-                            <img src={'./images/digital_marketing.jpg'} alt="" />
-                          </div>
-                          <div className="content">
-                            <p>Name</p>
-                            <p>Company</p>
-                            <p>Salary</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
                 </SwiperSlide>
 
               </Swiper>
             </div>
           </Col>
 
-          <Col lg={6}>
-            <div className="latest-post">
+          <Col lg={6} md={6} sm={12}>
+            <div className="latest-post" id='latest-announcement'>
               <div className="heading-post">
                 <h5>
                   <FontAwesomeIcon icon={faBullhorn} /> &nbsp;
                   ANNOUNCEMENT
                 </h5>
               </div>
-              <ScrollContainer/>
-              {/* <Swiper
-                autoplay={true}
-
-                pagination={{
-                  clickable: true,
-                }}
-                modules={[Pagination]}
-                className="mySwiper"
-              >
-
-                <SwiperSlide slidesPerView={1} >
-
-                  <div className="row card-2">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam dolores dicta veniam unde, doloribus, id alias necessitatibus enim aperiam minus vero dolore voluptas corrupti, ex eveniet eum nihil! Voluptates, temporibus.</p>
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className="row ">
-
-                  </div>
-                </SwiperSlide>
-
-              </Swiper> */}
+              <div className="news-container">
+                <ScrollContainer/>
+              </div>
             </div>
           </Col>
         </Row>

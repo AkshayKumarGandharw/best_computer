@@ -4,7 +4,7 @@ import { Form, Button,Modal,ModalFooter } from 'react-bootstrap';
 import InputGroup from 'react-bootstrap/InputGroup';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faRightToBracket, faUserPlus } from '@fortawesome/free-solid-svg-icons';
-import LoginForm from '../../LoginForm/LoginForm';
+import LoginForm from '../../Forms/LoginForm';
 
 
 
@@ -74,10 +74,10 @@ function Pholoslider() {
           <input type="text" className='form-control' placeholder='Enter your OTP' />
         </div>
         <div className="center">
-          <Button variant="outline-primary start-0 m-3" id="button-addon2">
+          <Button variant="btn btn-outline-accent start-0 m-3" id="button-addon2">
             Register Now  &nbsp; &nbsp; <FontAwesomeIcon icon={faUserPlus} />
           </Button>
-          <Button variant="outline-primary m-3" id="button-addon2"  onClick={()=>{setClickMeLogin(true)}}>
+          <Button variant="btn btn-outline-accent m-3" id="button-addon2"  onClick={()=>{setClickMeLogin(true)}}>
             Log In &nbsp; &nbsp; <FontAwesomeIcon icon={faRightToBracket} />
           </Button>
           <Modal show={setLoginMe} onHide={() => { setClickMeLogin(false) }}>
@@ -88,7 +88,7 @@ function Pholoslider() {
               <LoginForm/>
             </Modal.Body>
             <ModalFooter className='center'>
-
+                <Button variant='btn btn-outline-accent'>Log In</Button>
             </ModalFooter>
           </Modal>
         </div>

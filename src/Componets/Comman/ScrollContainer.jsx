@@ -1,9 +1,9 @@
  import React from 'react';
-
+import '../Home/Home';
  
  function ScrollContainer() {
    return (
-     <div style={{height:450, overflow:'auto' , border:'1px solid white',padding:30}}>
+     <div style={{height:400, overflow:'auto' , border:'1px solid white',padding:30,backgroundColor:'purple',color:'white'}}>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus molestias magni atque nostrum dolorem et repellat beatae ipsam illo quisquam.</p>
 
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur ex magni reprehenderit soluta? Nesciunt odio porro ex unde corporis odit tempore eius dicta quas ea suscipit, pariatur obcaecati, maxime dolore, maiores ipsum illum blanditiis cumque. Nostrum placeat quam, nemo, neque velit itaque expedita, molestias illum unde aliquam consequuntur! Quisquam dicta ipsa dolore consequatur reprehenderit vero quibusdam! Porro eveniet dolorum vel quo corporis labore! Distinctio voluptatum necessitatibus reprehenderit aspernatur? Mollitia ab autem doloremque a sint beatae culpa porro fuga, veritatis quasi laudantium praesentium voluptatibus exercitationem veniam aliquid nulla placeat incidunt harum ad ipsa dolores quis, aliquam totam. Incidunt molestiae harum accusantium odio, neque culpa fugit, eos voluptatum ipsum dicta beatae quam similique voluptates? Officia vitae error perferendis consectetur aliquam? Eaque dignissimos at nostrum velit excepturi aut eum commodi, odio voluptatum sed. Voluptatibus minima reprehenderit dicta, explicabo, amet dolor repellendus accusantium adipisci officiis impedit quos iure delectus cum possimus. Iure maxime est animi. Expedita voluptatem praesentium nihil quae ab neque incidunt hic quia officia perferendis sed labore, ipsam saepe aut minima enim nobis possimus. Voluptatem dicta, quasi, quia est vel, recusandae accusantium eveniet deleniti molestias perspiciatis animi laudantium voluptatibus praesentium. Inventore illum ipsum labore tempora laudantium ullam et veniam dolorum obcaecati quo.</p>

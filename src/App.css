@@ -18,13 +18,17 @@
 /* ..........TOP-HEADER END.................. */
 /* ...........HEADER START..................... */
 /* ...........HEADER END..................... */
+
+
+
+
 /* ...........FOOTER START................... */
 #footer-section{
     background-color:#800080;
     color:white;
-    height:300px;
+    height:auto;
     padding:50px 0px;
-    
+    overflow:hidden;   
 }
 
 #footer-section a{
@@ -34,72 +38,65 @@
 
 #footer-section .image-logo{
     border-radius:50%;
-   
+
 }
 
-#footer-section .container .row .col-md-4 .logo .brand{
+#footer-section .container .row  .logo .brand{
     text-align:center;
-    background-color:black;
 }
 
 .logo {
      margin-bottom:25px; 
 }
 
-#footer-section .container .row .col-md-4 .contact{
+#footer-section .container .row  .contact{
     margin-left:30px;
+    margin-bottom:30px;
 }
 
-#footer-section .container .row .col-md-8 .col-md-4 ul {
+ #footer-section .container .row  ul {
     margin-top:15px;
-    padding-left:0px;
-}
+    
+} 
 
-#footer-section .container .row .col-md-8 .col-md-4 ul li {
-    list-style:none;   
-}
-#footer-section .container .row .col-md-8 .col-md-4 ul li a {
+#footer-section .container .row  ul li a {
     text-decoration:none;
     color:white;
     font-weight:normal;
 }
-/* ...........FOOTER END................... */
-/* ...........Footer part two start................ */
-.footer{
-    background-color:#800080;
-    color:white;
-    overflow:hidden;
-    padding:20px 0px;
+
+#footer-section .container .row  ul li a:hover {
+    
+    color:pink;
+    
 }
 
-.footer .footer-first{
-    margin-left:20px;
-}
-.footer .footer-second{
-   text-align:right;
+/* ...........Footer part two start................ */
+
+#footer-section  .container #footer-part-2 .footer-first{
+    
+    text-align:center;
+    padding:10px 80px 10px 0px;
+    
+} 
+#footer-section  .container #footer-part-2 .footer-second{
+   text-align:center;
    padding:10px 80px 10px 0px;
    
-}
+} 
 
-.footer .footer-second span{
+#footer-section  .container #footer-part-2 .footer-second span{
     justify-content:center;
     padding:15px 15px;
     transition: 0.5s all;
 }
 
-.footer .footer-second span a{
+#footer-section  .container #footer-part-2 .footer-second span a{
     color:white;
 }
 
-.footer .footer-second span a:hover{
-    /* background-color:white; */
-}
-.footer .footer-second span:hover{
-    
-   
-}
 /* ...........Footer part two end................ */
-
+/* ...........FOOTER END................... */
 
 /* ...............COMMAN SECTION START................. */
 .width-height-section{
@@ -248,13 +245,22 @@ NavDropdown{
 /* ........Download Section.................end */
 
 /*......RESPONSIVE SECTION START */
-@medea screen and(min-width: 576px){
+@medea screen and(min-width: 376px){
 
+}
+@medea screen and(min-width: 576px){
+      #footer-section .container .row  ul  {
+    text-align:center;  
+}
+
+#footer-section .container .row  ul li {
+    list-style:none;   
+}
 
 }
 @medea screen and(max-width: 576px){
 
-
+ 
 }
 
 @medea screen and(max-width: 768px){

@@ -11,8 +11,8 @@ function Footer() {
     <>
       <footer id='footer-section'>
         <div className="container">
-          <div className="row">
-            <div className="col-lg-4 col-md-6 ">
+          <div className="row" id='footer-part-1'>
+            <div className="col-lg-4 col-md-6 col-sm-12">
               <div className="logo">
                 <Navbar.Brand href="#" className='brand'>
 
@@ -31,7 +31,67 @@ function Footer() {
                 &nbsp; <i>bestcomputer002@gmail.com</i>
               </div>
             </div>
+            <div className="col-lg-3 col-md-6 col-sm-12">
+                <h4><u>MENU</u></h4>
+               <ul>
+                <li><a href="/"> &nbsp;Home</a></li>
+                <li><a href="#">&nbsp;Course</a></li>
+                <li><a href="/about_Us">&nbsp;About Us</a></li>
+                <li><a href="/contactus">&nbsp;Contact Us</a></li>
+                <li><a href="#">&nbsp;Download</a></li>
+               </ul>
+              </div>
+              <div className="col-lg-3 col-md-6 col-sm-12">
+                <h4><u>COURSE</u></h4>
+            
+                <ul>
+                  <li><a href="/accandtax">&nbsp;Acc. & Tax. </a></li>
+                  <li><a href="/graphicdesign">&nbsp;Graghic Design</a></li>
+                  <li><a href="/websitedesign">&nbsp;Website Design</a></li>
+                  <li><a href="/vedioediting">&nbsp;Video Editing</a></li>
+                  <li><a href="/sharemarket">&nbsp;Share Market</a></li>
+                  <li><a href="/digitalmarketing">&nbsp;Digital Marketing</a></li>
+                  <li><a href="/computerbasic">&nbsp;Computer Basic </a></li>
+                  <li><a href="/accandtaxsolution">&nbsp;Acc. & Tax. Solu. </a></li>
+                  <li><a href="/pgdca&dca">&nbsp;Pgdca and Dca</a></li>
+                  <li><a href="/spokenenglish">&nbsp;Spoken English</a></li>
+                </ul>
+              </div>
+            <div className="col-lg-2 col-md-6 col-sm-12">
+              <h4><u>DOWNLOAD</u></h4>
+          
+                <ul>
+                  <li><a href="#">&nbsp;Syllabus</a></li>
+                  <li><a href="#">&nbsp;Study Material </a></li>
+                  <li><a href="#">&nbsp;References </a></li>
+                  <li><a href="#">&nbsp;Books</a></li>
+                  <li><a href="#">&nbsp;Notes</a></li>
+                </ul>  
+            </div>
 
+          </div>
+          <div className="row" id='footer-part-2'>
+             <div className="footer-first">
+                 <p>&copy;2024, Best Computer & Consultancy Pvt. ltd. All rights Reserved. </p>
+             </div>
+             <div className="footer-second">
+                <span><a href=""><FontAwesomeIcon icon={faFacebook} className='fs-4'/></a></span>
+                <span><a href=""><FontAwesomeIcon icon={faWhatsapp} className='fs-4'/></a></span>
+                <span><a href=""><FontAwesomeIcon icon={faInstagram} className='fs-4'/></a></span>
+                <span><a href=""><FontAwesomeIcon icon={faTwitter} className='fs-4'/></a></span>
+                <span><a href=""><FontAwesomeIcon icon={faYoutube} className='fs-4'/></a></span>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </>
+  )
+}
+
+export default Footer;
+
+
+{/* 
             <div className="col-lg-8 col-md-6 d-flex">
               <div className="col-md-4">
                 <u><b>MENU</b></u>
@@ -64,26 +124,4 @@ function Footer() {
                   <li><a href="">{">"}&nbsp;Notes</a></li>
                 </ul>  
               </div>
-            </div>
-          </div>
-        </div>
-
-      </footer>
-      <div className="footer d-flex">
-        <div className="col-lg-6 footer-first">
-          <p>&copy;2024, Best Computer & Consultancy Pvt. ltd. All rights Reserved. </p>
-        </div>
-        <div className="col-lg-6 footer-second">
-          <span><a href=""><FontAwesomeIcon icon={faFacebook} className='fs-4'/></a></span>
-          <span><a href=""><FontAwesomeIcon icon={faWhatsapp} className='fs-4'/></a></span>
-          <span><a href=""><FontAwesomeIcon icon={faInstagram} className='fs-4'/></a></span>
-          <span><a href=""><FontAwesomeIcon icon={faTwitter} className='fs-4'/></a></span>
-          <span><a href=""><FontAwesomeIcon icon={faYoutube} className='fs-4'/></a></span>
-        </div>
-      </div>
-
-    </>
-  )
-}
-
-export default Footer
+            </div> */}

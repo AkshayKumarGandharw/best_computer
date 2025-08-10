@@ -25,8 +25,8 @@
               </Col>
               <Col lg={4}>
                 <div className="button-section">
-                  <Button className='preview-button mb-3'>Preview</Button>
-                  <Button className='preview-button mb-3'>Download</Button>
+                  <Button className='preview-button btn btn-outline-accent mb-3'>Preview</Button>
+                  <Button className='preview-button  btn btn-outline-accent mb-3'>Download</Button>
                  
                 </div>
               </Col>

@@ -1,9 +1,10 @@
 import { React, useState } from 'react';
 import '../Home.css';
-import { Container, Row, Col, Modal, Form, Button } from 'react-bootstrap';
+import { Container, Row, Col, Modal } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBookOpenReader, faIndianRupeeSign, faTimeline } from '@fortawesome/free-solid-svg-icons';
-//import syllabus from '../../../Componets/ObjectFile/Syllabus.json';
+import RegistrationForm from '../../Forms/RegistrationForm';
+
 
 
 function Course() {
@@ -119,78 +120,46 @@ function Course() {
                                                 <div className="row course-row">
                                                     <div className="col d-flex">
                                                         <div className='center btn'>
-                                                    <button className='btn-outline-white' onClick={() => { setBool(true) }}>REGISTER NOW</button>
+                                                            <button className='btn-outline-white' onClick={() => { setBool(true) }}>REGISTER NOW</button>
 
-                                                    <Modal show={bool} onHide={() => { setBool(false) }}>
-                                                        <Modal.Header closeButton>
+                                                            <Modal show={bool} onHide={() => { setBool(false) }}>
+                                                                <Modal.Header closeButton>
 
-                                                            <h3>Registration Form</h3>
+                                                                    <h3>Registration Form</h3>
 
-                                                        </Modal.Header>
-                                                        <Modal.Body>
-                                                            <Form>
-                                                                <Form.Group>
-                                                                    <Form.Label>Name:</Form.Label>
-                                                                    <Form.Control
-                                                                        type="text"
-                                                                        placeholder=" Enter Your Name"
-                                                                    />
+                                                                </Modal.Header>
+                                                                <Modal.Body>
+                                                                    <RegistrationForm />
+                                                                </Modal.Body>
+                                                                <Modal.Footer>
+                                                                    <button className='btn-outline-accent' onClick={() => { setBool(false) }}>Register Now</button>
+                                                                    <button className='btn-outline-danger' onClick={() => { setBool(false) }}>Close</button>
+                                                                </Modal.Footer>
 
-                                                                </Form.Group>
-                                                                <Form.Group>
-                                                                    <Form.Label>Email-Id:</Form.Label>
-                                                                    <Form.Control
-                                                                        type="email"
-                                                                        placeholder=" Enter Your Email-Id"
-                                                                    />
-
-                                                                </Form.Group>
-                                                                <Form.Group>
-                                                                    <Form.Label>Contact No.:</Form.Label>
-                                                                    <Form.Control
-                                                                        type="number"
-                                                                        placeholder=" Enter Your Contact No."
-                                                                    />
-
-                                                                </Form.Group>
-                                                                <Form.Group>
-                                                                    <Form.Label>Address:</Form.Label>
-                                                                    <Form.Control
-                                                                        type="text"
-                                                                        placeholder=" Enter Your Name"
-                                                                    />
-
-                                                                </Form.Group>
-                                                            </Form>
-                                                        </Modal.Body>
-                                                        <Modal.Footer>
-                                                            <button className='btn-outline-danger'  >Close</button>
-                                                        </Modal.Footer>
-
-                                                    </Modal>
+                                                            </Modal>
                                                         </div>
                                                         <div className='center btn'>
-                                                    <button className='btn-outline-accent margin-left' onClick={() => { setSyllabus(true) }}>VIEW SYLLABUS</button>
-                                                    <Modal show={syllabus} onHide={() => { setSyllabus(false) }}>
-                                                        <Modal.Header closeButton>
+                                                            <button className='btn-outline-accent margin-left' onClick={() => { setSyllabus(true) }}>VIEW SYLLABUS</button>
+                                                            <Modal show={syllabus} onHide={() => { setSyllabus(false) }}>
+                                                                <Modal.Header closeButton>
 
-                                                            <h3 >Course Name</h3>
+                                                                    <h3 >Course Name</h3>
 
-                                                        </Modal.Header>
-                                                        <Modal.Body>
-                                                            <p>Syllabus Details</p>
-                                                        </Modal.Body>
+                                                                </Modal.Header>
+                                                                <Modal.Body>
+                                                                    <p>Syllabus Details</p>
+                                                                </Modal.Body>
 
-                                                        <Modal.Footer>
-                                                            <button className='btn-outline-danger'>Close</button>
-                                                        </Modal.Footer>
+                                                                <Modal.Footer>
+                                                                    <button className='btn-outline-danger'>Close</button>
+                                                                </Modal.Footer>
 
-                                                    </Modal>
+                                                            </Modal>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                
-                                                
+
+
                                             </div>
                                         </div>
 

@@ -31,6 +31,7 @@
     background-color:white;
     border-radius:5px;
     border:1px solid gray;
+    transition: all 0.4s;
 }
 .btn-outline-white:hover{
     padding:10px 5px;
@@ -132,9 +133,9 @@
     width:200px;
     height:200px;
     border-radius:50%;
-    
     background-color:#F7F4F4;
   }
+
   .aboutus-section .aboutus-container .content-aboutus{
      box-shadow:1px 1px 4px 3px #F7F4F4;
      height:200px;
@@ -149,28 +150,25 @@
     border-radius:30px;
     padding:20px;
   }
+  
  /* ......Aboutus..................................end */
 /* ...............Photoslider start........................... */
 #Photoslider-section{
     position:relative;
     height:auto;
-   
-
 }
+
 #Photoslider-section .height-box-image{
     height:400px;
     background-color:green;
     border-radius:20px;
 }
+
 #Photoslider-section .height-box-image img{
     width:100%;
     height:100vh;
-
 }
-/* #Photoslider-section .Carousel .Item img{
 
-        height:100px;
-} */
 .Register-form{
     position:absolute;
     right:40px;
@@ -179,7 +177,7 @@
     background-color:#ffffff;
     box-shadow:3px 4px 5px blur white;
     border:15px solid #e2e2e2;
-     z-index:2;
+    z-index:2;
 }
 
 
@@ -188,61 +186,54 @@
 
 /* ................Notice start............................ */
   #Notice-section{
-    height:800px;
+    height:auto;
     background-color:#F5F5F4;
     position:relative;
     overflow:hidden;
-    
+    margin:100px 0px; 
   }
-#Notice-section .mySwiper{
-    background-color:purple;
-    padding:40px 10px;
-    border:1px solid #c7cbcfff;
-}
- 
-.mySwiper{
+
+#Notice-section .swiper{
+    padding:15px 10px;
     width:100%;
-    height:500px;
+    height:auto;
+    background-color:purple; 
+    
 }
 
+ #Notice-section .swiper .swiper-wrapper{
+    padding:20px 0px; 
+    width:100%;
+ }
 
+.latest-post{
+    position:relative;  
+}
 
 .latest-post .heading-post  {
-    background-color:purple;
+    background-color:white;
+    position:absolute;
+    top:-25px;
+    z-index:99;
     display:flex;
     justify-content:center;
     align-items:center;
-    /* background-color:white; */
     line-height:50px;
     height:50px;
     width:270px;
     padding:15px;
     text-align:center;
     color:gray;
-    box-shadow:1px 1px 5px 5px #cbd0d6ff;
+    border-radius:0px 10px 0px 10px;
+    box-shadow:1px 1px 5px 5px purple;
     
 }
-
-
-
-/* -----Important link and other details--------- start*/
- 
- 
-/* -----Important link and other details--------- end*/
-
 
 /*----Notice Placement Section ------start*/
-.Notice-section .latest-post{
-    
-}
-.Notice-section .latest-post .mySwiper{
-    background-color:green;
-}
+
 .card{
-    /* background-color:white; */
-    box-shadow:0px 0px 1px #cbd0d6ff;
-    width:200px;
-    height:400px;
+    /* width:200px; */
+    height:330px;
     padding:10px;
     border-radius:20px;
     color:black;
@@ -257,7 +248,7 @@
 
 .img-card img{
     width:100%;
-    height:200px;
+    height:150px;
 }
 
 .card .content{
@@ -267,15 +258,11 @@
 /*----Notice Placement Section ------end*/
 
 /* .....Notice Annoucement Section .....start */
-.card-2{
-    /* background-color:white; */
-    box-shadow:0px 0px 1px #cbd0d6ff;
-    width:100%;
-    height:auto;
-    padding:10px;
-    border-radius:20px;
-    color:white;
-}
+
+
+
+
+
 /* .....Notice Annoucement Section .....end */
 
 /* ................Notice end............................ */
@@ -289,21 +276,15 @@
     position:relative;
     border-radius:20px;
     padding:10px 10px 10px 15px;
-    /* background-color:#e2e2e2; */
     background-color:white;
     margin-bottom:30px;
     box-shadow:1px 1px 5px 1px gray;
     transition:all 0.5s;
-    height:300px;
-     
-   
-    
+    height:300px; 
 }
+
 #course .box .img{
-    /* width:300px;
-    height:300px; */
     width:50%;
-    /* background-color:gray; */
     background-color:white;
     display:flex;
     justify-content:center;
@@ -314,50 +295,40 @@
 #course .box .img img{
     width:200px;
     height:200px;
-    background-color:yellow;
 }
 
 #course .box .course-detail{  
     width:50%;
     height:auto;
-    /* background:linear-gradient(rgb(233, 221, 221),rgb(219, 212, 212)); */
     background-color:white;
-     border-radius:0px 20px 20px 0px;
+    border-radius:0px 20px 20px 0px;
 }
 
  #course .box .course-detail .Heading{
-    /* background-color:#803486; */
     background-color:white;
     height:40px;
     padding:7px 0px;
     color:black;
     text-align:center;
 }
+
 .h3{
     background-image:linear-gradient(to right,blue,#3B6411,green);
     -webkit-background-clip: text;
     background-clip:text;
     color:transparent;
 }
-
-
- #course .box .course-detail .course-row .h3{
-    /* color:linear-gradient(rgb(#7CCF35),rgb(#FF692A)); */
-    /* background-image:linear-gradient(to right,blue,#3B6411,green);
-    -webkit-background-clip: text;
-    background-clip:text;
-    color:transparent; */
-} 
+ 
 #course .box .course-detail .course-row p{
     padding:5px 10px;
 }
+
 #course .box .course-detail .btn{
     padding:0px 6px;
     border:none;
-
 }
 
-  .course-tag{
+.course-tag{
     position:absolute;
     display:flex;
     width:200px;
@@ -381,54 +352,37 @@
     justify-content:center;
     align-items:center;
 }
-/*
-#course .box{
-    background-color:white;
-    box-shadow:0px 0px 1px gray;
-    width:400px;
-    height:auto;
-    padding:20px;
-    border-top:10px solid blue;
-    border-bottom:10px solid red;
-    border-radius:3px;
-    position:relative;
-    margin-bottom:100px;
 
-}
-#course .box .img{
-   
-    width:100%;
-    height:100%;
-}
-
-
-.course-detail p{
-    padding:auto 10px;
-}
-.course-row{
-    border-bottom:1px solid white;
-}
-
-    */
 /* ................Course end.......................... */
 /* ................Gallery start........................ */
 #Gallery-section{
     height:auto;
-    background-color:#e2e2e2;
+    background-color:white;
     padding:100px 0px;
+    overflow:hidden;
+    box-shadow:1px 0px 1px 1px #e2e2e2;
 }
 
-#Gallery-section .container .row .tabs { 
-    padding:0px 450px;
+#Gallery-section .container .row ul#gallery-tab.tabs.nav.nav-tabs{
+    background-color:#e2e2e2;
+    width:100%;
+    margin:0px auto;
+}
+
+#Gallery-section .container .row .nav-tabs .nav-link{
+    color:black;
+}
+
+#Gallery-section .container .row .nav-tabs .nav-link.active {
+    background-color:purple;
+    color:white;
 }
 
 .gallery-width{
-    width:400px;
-    height:100%;
+    width:100%;
     border-radius:30px;
-    margin:20px 0px;
-
-    
+    background-color:gray;
+    border:1px solid black;  
 }
 
 #Gallery-section .gallery-width img{
@@ -440,16 +394,18 @@
     transform: scale(1.05);
 }
 
-.margin-30{
-    margin-bottom:30px;
-    margin-top:100px;
+#Gallery-section .container .row  .area-gallery{
+   height:auto;
+   margin-top:20px;   
 }
 
 .margin-b-50{
     margin-bottom:50px;
 }
-.margin-50{
-    margin:10px 0px 50px 0px;
+
+#Gallery-section .container .row  .area-gallery .col-md-6 {
+    padding:20px 25px 20px 25px;
+    border:1px solid #e2e2e2;
 }
 
 
@@ -457,9 +413,9 @@
 /* ................Status start......................... */
 #Status-section{
     height:auto;
-   
     padding:100px 0px;
 }
+
 #Status-section .status-box{
     text-align:center;
     border:2px solid gray;
@@ -467,13 +423,13 @@
     background-color:#803486;
     color:white;
     transition: 0.6s all;
-    
-    
 }
+
 #Status-section .status-box:hover{
     background-color:white;
     color:#803486;
 }
+
 #Status-section .status-box h3{
     font-weight:normal;
     font-size:24px;
@@ -485,27 +441,22 @@
 }
 
 /* ................Status end......................... */
-/* ................Bulk Message start.................. */
-#Bulk_Message{
-    height:auto;
-    background-color:green;
-}
-/* ................Bulk Message end.................. */
+
 /* ................Contact start...................... */
 #Contact-section{
     height:auto;
-    background-color:#e2e2e2;
+    background-color:white;
     padding:100px 0px;
+    box-shadow:1px 0px 1px 1px #e2e2e2;
 }
 
 #Contact-section .google-map{
-    border:1px dashed #803486;
-   
-    
+    border:1px dashed #803486;    
 }
+
 #Contact-section #address-detail .google-address{
     width:100%;
-    height:300px;
+    height:370px;
     border:1px dashed #803486;
     position:relative;
     text-align:center;
@@ -522,22 +473,18 @@
 .form{
     text-align:center;
     justify-content:center;
-     background-color:gray;
+    background-color:gray;
     border-left:1px solid gray;
     border-right:1px solid gray;
     border-bottom:1px solid gray;
     margin:100px 0px;
     border-radius:5px;
     color:white;
+}
 
-}
-.form .main{
-}
 .align-left{
     text-align:left;
 }
-
-
 
 .modal .modal-header{
     background-color:#803486;
@@ -562,5 +509,14 @@
 
 
  /* RESPONSIVE SECTION START */
+
+ @media screen and(min-width:576px){
+
+    #Gallery-section .container .row  .area-gallery .col-sm-12 {
+   
+     padding:10px 100px;
+   
+}
+ }
 
  /* RESPONSIVE SECTION END */
