@@ -130,31 +130,24 @@
     padding:50px 0px;
 }
 
-/* .........navbar in sub menu (dropdown menu)............start */
-NavDropdown{
-    color:green;
-}
-/* .........navbar in sub menu (dropdown menu)............end */
 
 /* .................Course Frame ...........................start */
 
 .course-frame{
     background-color: #f7f4f4ff;
-    padding:40px 40px 40px 40px;;
-    
-
+    padding:40px 40px 40px 40px;
 }
+
 .padding-10{
     padding:10px;
 }
+
 .course-frame .colorBackground{
      background-color:white;
      padding-top:20px;
 }
 /* .........Registration Form Here ......................start */
-.form-property{
-    
-}
+
 .box-3{
     box-shadow:1px 1px 2px 2px #e6dfdfff;
 }
@@ -166,16 +159,13 @@ NavDropdown{
 }
 
 .experince-teachers{
-   
-    padding:30px 20px;
-    display:flex;
-  
-    
+     padding:30px 20px;
+    display:flex;      
 }
 .experince-teachers .rectangle-box{
     background-color:white;
     color:black;
-    width:400px;
+    width:100%;
     height:200px;
     box-shadow:1px 1px 2px 2px #e6dfdfff;
     border-radius:20px;
@@ -183,6 +173,7 @@ NavDropdown{
     margin-right:10px;
     display:flex;
 }
+
 .experince-teachers .rectangle-box .img-circle{
     width:150px;
     height:150px;
@@ -247,7 +238,26 @@ NavDropdown{
 /* ........Download Section.................end */
 
 /*......RESPONSIVE SECTION START */
-@media screen and(max-width: 376px){
+@media (max-width: 376px){
+    .course-frame{
+    padding:20px 5px 20px 5px;
+}
+
+.experince-teachers{
+    padding:30px 4px;
+         
+}
+
+.experince-teachers .rectangle-box{
+
+    padding:15px 15px;
+    margin-right:10px;
+}
+
+.width-less-100 {
+    width:70%; 
+    margin-left:50px;
+}
 
 }
 @medea screen and(min-width: 576px){

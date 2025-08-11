@@ -8,6 +8,7 @@
 
    import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
    import { faBookOpenReader, faIndianRupeeSign, faTimeline } from '@fortawesome/free-solid-svg-icons';
+import SwiperTeachers from '../Comman/SwiperTeachers';
     
     function Digital_marketing() {
       const a = useContext(noteContext)
@@ -48,31 +49,12 @@
               </div>
               <h2 className='px-3 pt-3'>Experience Teachers </h2>
               <div className="experince-teachers">
-                <div className="rectangle-box">
-                  <div className="img-circle">
-                    <img src={a.titleImageCb} alt="" />
-                  </div>
-                  <div className="profile-teacher">
-                    <p>{a.teacherOneFullName}</p>
-                    <p>{a.teacherOneSubject}</p>
-                    <p>{a.teacherOneExperience}</p>
-                  </div>
-                </div>
-                <div className="rectangle-box">
-                  <div className="img-circle">
-                    <img src={a.titleImageDm} alt="" className='' />
-                  </div>
-                  <div className="profile-teacher">
-                    <p>{a.teacherTwoFullName}</p>
-                    <p>{a.teacherTwoSubject}</p>
-                    <p>{a.teacherTwoExperience}</p>
-                  </div>
-                </div>
+                <SwiperTeachers/>
 
               </div>
 
             </Col>
-            <Col lg={4}>
+            <Col lg={4} className='mb-4'>
               <div className="box-3">
                 <div className='course-tag'>
                   <h3 className='center '>COURSE</h3>

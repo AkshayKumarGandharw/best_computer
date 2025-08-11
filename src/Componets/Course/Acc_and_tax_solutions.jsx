@@ -15,6 +15,7 @@ import { Pagination, Navigation } from 'swiper/modules';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBookOpenReader, faIndianRupeeSign, faTimeline } from '@fortawesome/free-solid-svg-icons';
+import SwiperTeachers from '../Comman/SwiperTeachers';
 
 
 function Acc_and_tax_solutions() {
@@ -57,166 +58,12 @@ function Acc_and_tax_solutions() {
               <h2 className='px-3 pt-3'>Experience Teachers </h2>
               <div className="experince-teachers">
                 
-                
-                {/* <Swiper
-
-                slidesPerView={2}
-
-                navigation={true}
-                pagination={true}
-
-                modules={[Navigation,Pagination]}
-                >
-                  <SwiperSlide>
-                    <div className="rectangle-box">
-                      <div className="img-circle">
-                        <img src={a.titleImageAts} alt="" />
-                      </div>
-                      <div className="profile-teacher">
-                        <p>{a.teacherOneFullName}</p>
-                        <p>{a.teacherOneSubject}</p>
-                        <p>{a.teacherOneExperience}</p>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-
-                  <SwiperSlide>
-                    <div className="rectangle-box">
-                      <div className="img-circle">
-                        <img src={a.titleImageAts} alt="" className='' />
-                      </div>
-                      <div className="profile-teacher">
-                        <p>{a.teacherTwoFullName}</p>
-                        <p>{a.teacherTwoSubject}</p>
-                        <p>{a.teacherTwoExperience}</p>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                   <SwiperSlide>
-                    <div className="rectangle-box">
-                      <div className="img-circle">
-                        <img src={a.titleImageAts} alt="" className='' />
-                      </div>
-                      <div className="profile-teacher">
-                        <p>{a.teacherTwoFullName}</p>
-                        <p>{a.teacherTwoSubject}</p>
-                        <p>{a.teacherTwoExperience}</p>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                   <SwiperSlide>
-                    <div className="rectangle-box">
-                      <div className="img-circle">
-                        <img src={a.titleImageAts} alt="" className='' />
-                      </div>
-                      <div className="profile-teacher">
-                        <p>{a.teacherTwoFullName}</p>
-                        <p>{a.teacherTwoSubject}</p>
-                        <p>{a.teacherTwoExperience}</p>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-
-                </Swiper> */}
-                
-                  <Swiper
-                                  autoplay={true}
-                                  navigation={true}
-                                  slidesPerView={3}
-                                  spaceBetween={1}
-                                  pagination={{
-                                    clickable: true,
-                                  }}
-                                  
-                                  modules={[Pagination, Navigation]}
-                                  className="mySwiper"
-                                >
-                  
-                                  <SwiperSlide >
-                                          <div className="card">
-                                            <p className='center'>Profile</p>
-                                            <div className="img-card">
-                                              <img src={'./images/digital_marketing.jpg'} alt="" />
-                                            </div>
-                                            <div className="content">
-                                              <p>Name:</p>
-                                              <p>Company:</p>
-                                              <p>Salary:</p>
-                                            </div>
-                                          </div>
-                                  </SwiperSlide>
-                                    <SwiperSlide >
-                                          <div className="card">
-                                            <p className='center'>Profile</p>
-                                            <div className="img-card">
-                                              <img src={'./images/digital_marketing.jpg'} alt="" />
-                                            </div>
-                                            <div className="content">
-                                              <p>Name:</p>
-                                              <p>Company:</p>
-                                              <p>Salary:</p>
-                                            </div>
-                                          </div>
-                                  </SwiperSlide>
-                                    <SwiperSlide  >
-                                          <div className="card">
-                                            <p className='center'>Profile</p>
-                                            <div className="img-card">
-                                              <img src={'./images/digital_marketing.jpg'} alt="" />
-                                            </div>
-                                            <div className="content">
-                                              <p>Name:</p>
-                                              <p>Company:</p>
-                                              <p>Salary:</p>
-                                            </div>
-                                          </div>
-                                  </SwiperSlide>
-                                    <SwiperSlide>
-                                          <div className="card">
-                                            <p className='center'>Profile</p>
-                                            <div className="img-card">
-                                              <img src={'./images/digital_marketing.jpg'} alt="" />
-                                            </div>
-                                            <div className="content">
-                                              <p>Name:</p>
-                                              <p>Company:</p>
-                                              <p>Salary:</p>
-                                            </div>
-                                          </div>
-                                  </SwiperSlide>
-                                    <SwiperSlide>
-                                         <div className="card">
-                                            <p className='center'>Profile</p>
-                                            <div className="img-card">
-                                              <img src={'./images/digital_marketing.jpg'} alt="" />
-                                            </div>
-                                            <div className="content">
-                                              <p>Name:</p>
-                                              <p>Company:</p>
-                                              <p>Salary:</p>
-                                            </div>
-                                          </div>
-                                  </SwiperSlide>
-                                  <SwiperSlide>
-                                          <div className="card">
-                                            <p className='center'>Profile</p>
-                                            <div className="img-card">
-                                              <img src={'./images/digital_marketing.jpg'} alt="" />
-                                            </div>
-                                            <div className="content">
-                                              <p>Name:</p>
-                                              <p>Company:</p>
-                                              <p>Salary:</p>
-                                            </div>
-                                          </div>
-                                  </SwiperSlide>
-                  
-                                </Swiper>
+                 <SwiperTeachers/>
 
               </div>
 
             </Col>
-            <Col lg={4}>
+            <Col lg={4} className='mb-4'>
               <div className="box-3">
                 <div className='course-tag'>
                   <h3 className='center '>COURSE</h3>

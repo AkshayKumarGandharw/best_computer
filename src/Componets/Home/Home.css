@@ -183,9 +183,7 @@
 #Photoslider-section .carousel-caption h3,#Photoslider-section .carousel-caption p{
     color:purple;
     background-color:white;
-    width:300px;
-    text-align:center;
-
+    width:auto;
 }
 
 
@@ -516,7 +514,43 @@
 
 
  /* RESPONSIVE SECTION START */
+@media (max-width:376px){
 
+#course{
+    padding:0px 0px;   
+}
+
+#course .box .img{
+    width:30%;
+}
+
+#course .box .img img{
+    width:100px;
+    height:100px;
+}
+
+
+
+#course .box .course-detail{  
+    width:70%;
+}
+
+.h3{
+    font-size:20px;
+}
+ 
+
+#course .box .course-detail .btn{
+    padding:0px 10px;
+}
+
+.course-tag{
+    width:100px;
+    height:30px;
+}
+
+    
+ }
  @media screen and(min-width:576px){
 
     #Gallery-section .container .row  .area-gallery .col-sm-12 {
