@@ -159,9 +159,9 @@
 }
 
 #Photoslider-section .height-box-image{
-    height:400px;
-    background-color:green;
+    height:300px;
     border-radius:20px;
+    
 }
 
 #Photoslider-section .height-box-image img{
@@ -180,6 +180,13 @@
     z-index:2;
 }
 
+#Photoslider-section .carousel-caption h3,#Photoslider-section .carousel-caption p{
+    color:purple;
+    background-color:white;
+    width:300px;
+    text-align:center;
+
+}
 
 
 /* ...............Photoslider end.......................... */

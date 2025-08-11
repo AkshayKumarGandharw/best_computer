@@ -4,6 +4,8 @@
     box-sizing:border-box;
 
 }
+
+
 /* ........Button section..........start */
 .preview-button{
     width:100%;
@@ -245,7 +247,7 @@ NavDropdown{
 /* ........Download Section.................end */
 
 /*......RESPONSIVE SECTION START */
-@medea screen and(min-width: 376px){
+@media screen and(max-width: 376px){
 
 }
 @medea screen and(min-width: 576px){

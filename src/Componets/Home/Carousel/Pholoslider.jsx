@@ -1,4 +1,5 @@
 import React,{useState} from 'react';
+import '../../../App';
 import Carousel from 'react-bootstrap/Carousel';
 import { Form, Button,Modal,ModalFooter } from 'react-bootstrap';
 import InputGroup from 'react-bootstrap/InputGroup';
@@ -52,7 +53,7 @@ function Pholoslider() {
         </Carousel.Item>
       </Carousel>
 
-      <div className="Register-form">
+      <div className="Register-form d-none d-md-block ">
         <h2 className='center my-2'>Registration Here</h2>
         <div className="mb-3 mt-3">
           <input type="text" className='form-control' placeholder='Enter your name' />
