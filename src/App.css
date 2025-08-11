@@ -50,6 +50,9 @@
 .logo {
      margin-bottom:25px; 
 }
+#footer-section .container{
+    margin: 0px auto;
+}
 
 #footer-section .container .row  .contact{
     margin-left:30px;
@@ -259,8 +262,19 @@
     margin-left:50px;
 }
 
+#footer-section  .container #footer-part-2 .footer-first{
+    
+    padding:10px 10px 10px 10px;
+    
+} 
+#footer-section  .container #footer-part-2 .footer-second{
+   
+  padding:10px 10px 10px 10px;
+   
+} 
+
 }
-@medea screen and(min-width: 576px){
+@medea (min-width: 576px){
       #footer-section .container .row  ul  {
     text-align:center;  
 }
